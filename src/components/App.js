@@ -5,6 +5,7 @@ import NavBar from './NavBar/';
 import Hero from './Hero/';
 import AboutBook from './AboutBook/';
 import AboutAuthor from './AboutAuthor/index.js';
+import Footer from './Footer/index.js';
 
 export default function App() {
 	return (
@@ -13,6 +14,7 @@ export default function App() {
 			<Hero />
 			<AboutBook />
 			<AboutAuthor />
+			<Footer />
 		</div>
 	);
 }
