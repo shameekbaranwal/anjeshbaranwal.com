@@ -6,3 +6,8 @@
 	font-family: "Gallient";
 	src: url("assets/fonts/GallientRegular-eZoMp.ttf");
   }
+
+@font-face {
+	font-family: "Buda";
+	src: url("assets/fonts/Buda-Light.ttf");
+  }
