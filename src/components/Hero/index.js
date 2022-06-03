@@ -11,7 +11,7 @@ export default function Hero() {
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
 			}}
-			className='h-screen'
+			className='h-screen w-full snap-start'
 		>
 			<h1 className='text-9xl font-gallient pl-32 pt-32 bg-black bg-opacity-20 h-full'>
 				Anjesh

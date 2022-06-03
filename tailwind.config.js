@@ -8,6 +8,7 @@ module.exports = {
 				gallient: ['Gallient', 'sans-serif'],
 				grace: ['Covered By Your Grace', 'cursive'],
 				buda: ['Buda', 'sans'],
+				cutive: ['Cutive Mono', 'monospace'],
 			},
 			colors: {
 				primary: '#FBF9F0',

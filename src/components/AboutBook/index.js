@@ -5,7 +5,7 @@ import AboutBookBG from '../../assets/images/about_book_bg.png';
 export default function AboutBook() {
 	return (
 		<div
-			className='h-screen flex justify-center items-center snap-proximity snap-y'
+			className='h-screen flex justify-center items-center snap-start'
 			style={{
 				backgroundImage: `url(${AboutBookBG})`,
 				backgroundRepeat: 'no-repeat',
