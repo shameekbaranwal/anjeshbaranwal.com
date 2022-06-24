@@ -10,7 +10,7 @@ export default function HorizontalNavOptions() {
 			<NavOption href='/#'>çkDdFku</NavOption>
 			<NavOption href='/#'>{`leh{kk`}</NavOption>
 			<NavOption href='/#'>{`ys[kd&ifjp;`}</NavOption>
-			<SocialMedia className='gap-x-3.5' />
+			<SocialMedia className='gap-x-3.5 lg:gap-x-6' />
 		</ul>
 	);
 }
