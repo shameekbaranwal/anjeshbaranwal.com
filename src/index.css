@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "kokila";
+	src: url("./assets/fonts/kokila.ttf");
+  }
+
+@font-face {
+	font-family: "kokilab";
+	src: url("./assets/fonts/kokilab.ttf");
+  }
+
+@font-face {
+	font-family: "kruti";
+	src: url("./assets/fonts/KRDEV010.TTF");
+  }
+
+@font-face {
+	font-family: "kruti-bold";
+	src: url("./assets/fonts/KRDEV011.TTF");
+  }
+
+@font-face {
+	font-family: "kruti-italic";
+	src: url("./assets/fonts/KRDEV012.TTF");
+  }
+
+@font-face {
+	font-family: "kruti-bold-italic";
+	src: url("./assets/fonts/KRDEV013.TTF");
+  }
+
+@font-face {
+	font-family: "cinzel";
+	src: url("./assets/fonts/CinzelDecorative-Regular.ttf");
+  }
+
+@font-face {
+	font-family: "cinzel-black";
+	src: url("./assets/fonts/CinzelDecorative-Black.ttf");
+  }
+
+@font-face {
+	font-family: "cinzel-bold";
+	src: url("./assets/fonts/CinzelDecorative-Bold.ttf");
+  }
+
+
+.tracking-max {
+	letter-spacing: 0.4em;
+}
+
