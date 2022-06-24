@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.acb9e224.css",
-    "main.js": "./static/js/main.4534a1ae.js",
-    "static/media/hero_bg.jpg": "./static/media/hero_bg.966b9cdff5ca2164e3fc.jpg",
-    "static/media/about_book_bg.png": "./static/media/about_book_bg.0325b4d70e8d7d6ea1e7.png",
-    "static/media/GallientRegular-eZoMp.ttf": "./static/media/GallientRegular-eZoMp.419a762c1efbc6a5bd7c.ttf",
-    "static/media/Buda-Light.ttf": "./static/media/Buda-Light.6a0f34f85808fdc59551.ttf",
-    "static/media/instagram.svg": "./static/media/instagram.e611220f84e4126834db6b7ba65f8d49.svg",
+    "main.css": "./static/css/main.baec7dcc.css",
+    "main.js": "./static/js/main.5394d14e.js",
+    "static/media/kokilab.ttf": "./static/media/kokilab.12d06750d06b18fdf43e.ttf",
+    "static/media/kokila.ttf": "./static/media/kokila.ba2d61424942a1353337.ttf",
+    "static/media/KRDEV011.TTF": "./static/media/KRDEV011.38bf7cd287772f13059d.TTF",
+    "static/media/KRDEV013.TTF": "./static/media/KRDEV013.7e1ebb3cda5988f984fd.TTF",
+    "static/media/CinzelDecorative-Black.ttf": "./static/media/CinzelDecorative-Black.a98758b9452a977dba37.ttf",
+    "static/media/CinzelDecorative-Bold.ttf": "./static/media/CinzelDecorative-Bold.4701e9921703cb64dfce.ttf",
+    "static/media/KRDEV010.TTF": "./static/media/KRDEV010.91c86b693d7a1970e16a.TTF",
+    "static/media/KRDEV012.TTF": "./static/media/KRDEV012.9e6367d9da911b49d51e.TTF",
+    "static/media/CinzelDecorative-Regular.ttf": "./static/media/CinzelDecorative-Regular.c243877d82654b511c69.ttf",
+    "static/media/twitter.svg": "./static/media/twitter.1b0ecc8d940613fc0c815eb4902fbcfd.svg",
+    "static/media/facebook.svg": "./static/media/facebook.7947af31fb01d79d27991c96d40fbcd5.svg",
+    "static/media/gmail.svg": "./static/media/gmail.212eab62e1bd31824f95d15d1d0d57b2.svg",
     "index.html": "./index.html",
-    "static/media/facebook.svg": "./static/media/facebook.728acff77407057b62c34837ee643235.svg",
-    "static/media/gmail.svg": "./static/media/gmail.2b0b87893df40387927da990c4012c6b.svg",
-    "main.acb9e224.css.map": "./static/css/main.acb9e224.css.map",
-    "main.4534a1ae.js.map": "./static/js/main.4534a1ae.js.map"
+    "main.baec7dcc.css.map": "./static/css/main.baec7dcc.css.map",
+    "main.5394d14e.js.map": "./static/js/main.5394d14e.js.map"
   },
   "entrypoints": [
-    "static/css/main.acb9e224.css",
-    "static/js/main.4534a1ae.js"
+    "static/css/main.baec7dcc.css",
+    "static/js/main.5394d14e.js"
   ]
 }
