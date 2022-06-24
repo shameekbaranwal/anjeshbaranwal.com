@@ -6,7 +6,7 @@ export default function SocialIcon({ icon, name, href }) {
 			<img
 				src={icon}
 				alt={name}
-				className='w-6 h-6 md:w-5 md:h-5 lg:w-6 lg:h-6'
+				className='w-6 h-6 md:w-5 md:h-5 lg:w-6 lg:h-6 hover:scale-125 hover:animate-pulse transition-all'
 			/>
 		</a>
 	);
