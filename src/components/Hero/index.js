@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { BookCoverLargeScreen } from './BookCoverLargeScreen';
-import { AnjeshBaranwalDisplayImage } from './AnjeshBaranwalDisplayImage';
-import { NameDisplay } from './NameDisplay';
-import { Introduction } from './Introduction';
+import AnjeshBaranwal from '../../assets/images/anjesh_baranwal.png';
+import BookCoverLargeScreen from './BookCoverLargeScreen';
+import DisplayImage from './DisplayImage';
+import NameDisplay from './NameDisplay';
+import Introduction from './Introduction';
 
 export default function Hero({ show }) {
 	return (
@@ -19,7 +20,10 @@ export default function Hero({ show }) {
 				className={`h-[90vh] flex flex-col justify-start items-center`}
 			>
 				<div className='md:flex flex-row justify-center items-center md:mt-40 lg:mt-10 md:gap-x-10'>
-					<AnjeshBaranwalDisplayImage />
+					<DisplayImage
+						src={AnjeshBaranwal}
+						alt={'Anjesh Baranwal'}
+					/>
 					<NameDisplay />
 				</div>
 				<Introduction />

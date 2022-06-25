@@ -1,7 +1,7 @@
 import React from 'react';
 import BookCover from '../../assets/images/cover.png';
 
-export function BookCoverLargeScreen() {
+export default function BookCoverLargeScreen() {
 	return (
 		<div className='hidden lg:flex mt-14 justify-end items-center'>
 			<img

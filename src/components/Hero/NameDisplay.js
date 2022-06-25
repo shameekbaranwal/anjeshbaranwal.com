@@ -1,7 +1,7 @@
 import React from 'react';
 import Hindi from '../../constants/Hindi.js';
 
-export function NameDisplay() {
+export default function NameDisplay() {
 	return (
 		<>
 			<h2 className='font-kokila text-5xl mt-4 text-transparent bg-clip-text bg-gradient-to-b from-black to-brown-300 md:hidden'>
