@@ -1,5 +1,5 @@
 const Util = {
-	initAnimationDuration: 2000,
+	initAnimationDuration: 1000,
 	rotateAnimationDelay: 300,
 };
 

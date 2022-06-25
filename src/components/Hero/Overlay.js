@@ -20,14 +20,14 @@ export default function Overlay({ show, setShow }) {
 
 	return (
 		<div
-			className={`w-full h-full fixed flex justify-center items-center transition-all bg-platinum duration-500 ${
+			className={`w-full h-full fixed flex justify-center items-center transition-all bg-platinum duration-500 lg:hidden ${
 				show ? 'z-[5]' : 'z-[-1]'
 			}`}
 		>
 			<img
 				src={BookCover}
 				alt='San Gachhadhvam Book Cover'
-				className={`w-5/6 h-auto transition-all duration-1000 ${
+				className={`w-5/6 h-auto md:h-5/6 md:w-auto transition-all duration-1000 ${
 					rotate && '-rotate-12'
 				}`}
 			/>
