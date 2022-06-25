@@ -1,6 +1,7 @@
 import React from 'react';
 import NavOption from './NavOption.js';
 import SocialMedia from './SocialMedia.js';
+import Hindi from '../../constants/Hindi.js';
 
 export default function VerticalNavOptions({ isOpen, setIsOpen }) {
 	return (
@@ -9,10 +10,10 @@ export default function VerticalNavOptions({ isOpen, setIsOpen }) {
 				isOpen ? 'h-[100%] pt-20' : 'h-[0%] pt-14 list-none'
 			}`}
 		>
-			<NavOption href='/#'>çLrkouk</NavOption>
-			<NavOption href='/#'>çkDdFku</NavOption>
-			<NavOption href='/#'>{`leh{kk`}</NavOption>
-			<NavOption href='/#'>{`ys[kd&ifjp;`}</NavOption>
+			<NavOption href='./#'>{Hindi.Preface}</NavOption>
+			<NavOption href='./#'>{Hindi.Foreword}</NavOption>
+			<NavOption href='./#'>{Hindi.Reviews}</NavOption>
+			<NavOption href='./#'>{Hindi.Author}</NavOption>
 			<SocialMedia className='mt-12 gap-x-8' />
 		</ul>
 	);

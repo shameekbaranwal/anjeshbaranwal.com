@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import BookCover from '../../assets/images/cover.png';
+import Util from '../../constants/Util.js';
 
 export default function Overlay() {
 	const [show, setShow] = useState(true);
@@ -8,7 +9,7 @@ export default function Overlay() {
 	useEffect(() => {
 		const t = setTimeout(() => {
 			setShow(false);
-		}, 2500);
+		}, Util.initAnimationDuration);
 		return () => clearTimeout(t);
 	}, []);
 
