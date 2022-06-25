@@ -10,7 +10,7 @@ const App = () => {
 	return (
 		<div className='w-screen h-full overflow-x-hidden max-w-[100%]'>
 			<NavBar />
-			<div className='pt-14 h-full min-h-screen'>
+			<div className='pt-14 h-full min-h-screen relative'>
 				<Overlay show={show} setShow={setShow} />
 				<Hero show={show} />
 				<BookWindow />
