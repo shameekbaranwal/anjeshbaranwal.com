@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.08bcd548.css",
-    "main.js": "./static/js/main.731c89f2.js",
+    "main.css": "./static/css/main.1a4779f9.css",
+    "main.js": "./static/js/main.25f0d512.js",
     "static/media/cover.png": "./static/media/cover.db09f80cdb4b25a0b849.png",
     "static/media/kokilab.ttf": "./static/media/kokilab.12d06750d06b18fdf43e.ttf",
     "static/media/kokila.ttf": "./static/media/kokila.ba2d61424942a1353337.ttf",
@@ -13,15 +13,16 @@
     "static/media/KRDEV010.TTF": "./static/media/KRDEV010.91c86b693d7a1970e16a.TTF",
     "static/media/KRDEV012.TTF": "./static/media/KRDEV012.9e6367d9da911b49d51e.TTF",
     "static/media/CinzelDecorative-Regular.ttf": "./static/media/CinzelDecorative-Regular.c243877d82654b511c69.ttf",
+    "static/media/quotes.svg": "./static/media/quotes.9e3adf5c642065f5e75fec8c487a2f6a.svg",
     "static/media/twitter.svg": "./static/media/twitter.1b0ecc8d940613fc0c815eb4902fbcfd.svg",
     "static/media/facebook.svg": "./static/media/facebook.7947af31fb01d79d27991c96d40fbcd5.svg",
     "static/media/gmail.svg": "./static/media/gmail.212eab62e1bd31824f95d15d1d0d57b2.svg",
     "index.html": "./index.html",
-    "main.08bcd548.css.map": "./static/css/main.08bcd548.css.map",
-    "main.731c89f2.js.map": "./static/js/main.731c89f2.js.map"
+    "main.1a4779f9.css.map": "./static/css/main.1a4779f9.css.map",
+    "main.25f0d512.js.map": "./static/js/main.25f0d512.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bcd548.css",
-    "static/js/main.731c89f2.js"
+    "static/css/main.1a4779f9.css",
+    "static/js/main.25f0d512.js"
   ]
 }
