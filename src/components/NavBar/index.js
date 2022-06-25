@@ -14,7 +14,7 @@ export default function NavBar() {
 		// 		*Horizontal Nav Options
 		// Vertical Nav Options
 		<>
-			<nav className='bg-platinum flex z-10 justify-between items-center drop-shadow-xl fixed w-screen h-14 px-4 sm:px-10 '>
+			<nav className='bg-platinum flex z-20 justify-between items-center drop-shadow-xl fixed w-screen h-14 px-4 sm:px-10 '>
 				<NavBrand />
 				<NavToggleButton isOpen={isOpen} setIsOpen={setIsOpen} />
 				<HorizontalNavOptions />

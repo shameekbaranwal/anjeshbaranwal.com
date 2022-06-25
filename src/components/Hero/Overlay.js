@@ -3,28 +3,32 @@ import React, { useEffect, useState } from 'react';
 import BookCover from '../../assets/images/cover.png';
 import Util from '../../constants/Util.js';
 
-export default function Overlay() {
-	const [show, setShow] = useState(true);
+export default function Overlay({ show, setShow }) {
+	const [rotate, setRotate] = useState(false);
 
 	useEffect(() => {
-		const t = setTimeout(() => {
-			setShow(false);
-		}, Util.initAnimationDuration);
-		return () => clearTimeout(t);
-	}, []);
+		const t = setTimeout(() => setShow(false), Util.initAnimationDuration);
+		const t2 = setTimeout(
+			() => setRotate(true),
+			Util.initAnimationDuration - Util.rotateAnimationDelay,
+		);
+		return () => {
+			clearTimeout(t);
+			clearTimeout(t2);
+		};
+	}, [setShow]);
 
 	return (
 		<div
-			className={`bg-platinum h-full transition-all duration-200 flex justify-center items-center w-full ${
-				show ? 'z-40 opacity-100' : 'opacity-40 -z-10'
+			className={`w-full h-full fixed flex justify-center items-center transition-all bg-platinum duration-500 ${
+				show ? 'z-[5]' : 'z-[-1]'
 			}`}
-			// style={{ zIndex: 100 }}
 		>
 			<img
 				src={BookCover}
-				alt='Sann Gachhadhvam Book Cover'
-				className={`transition-all duration-200 w-5/6 ${
-					show ? '' : '-rotate-12'
+				alt='San Gachhadhvam Book Cover'
+				className={`w-5/6 h-auto transition-all duration-1000 ${
+					rotate && '-rotate-12'
 				}`}
 			/>
 		</div>
