@@ -14,7 +14,7 @@ const App = () => {
 				<Overlay show={show} setShow={setShow} />
 				<Hero show={show} />
 				<BookWindow />
-				<div className='h-screen bg-platinum bg-opacity-[85%]'></div>
+				<div className='h-screen bg-platinum bg-opacity-[85%] lg:bg-opacity-100'></div>
 			</div>
 		</div>
 	);
