@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.ddb266b6.css",
-    "main.js": "./static/js/main.4799a47f.js",
+    "main.css": "./static/css/main.d7409c26.css",
+    "main.js": "./static/js/main.5a0efd8a.js",
     "static/media/texture_desktop.png": "./static/media/texture_desktop.d5c55871f0caf7a5e8ff.png",
     "static/media/texture_mobile.png": "./static/media/texture_mobile.243c3491366bb4fbca66.png",
     "static/media/cover.png": "./static/media/cover.db09f80cdb4b25a0b849.png",
     "static/media/kokilab.ttf": "./static/media/kokilab.12d06750d06b18fdf43e.ttf",
     "static/media/kokila.ttf": "./static/media/kokila.ba2d61424942a1353337.ttf",
     "static/media/anjesh_baranwal.png": "./static/media/anjesh_baranwal.0798c36c97e98b0b72ad.png",
+    "static/media/monika_arora.png": "./static/media/monika_arora.8ab68300ee6eb312c31f.png",
     "static/media/KRDEV011.TTF": "./static/media/KRDEV011.38bf7cd287772f13059d.TTF",
     "static/media/KRDEV013.TTF": "./static/media/KRDEV013.7e1ebb3cda5988f984fd.TTF",
     "static/media/CinzelDecorative-Black.ttf": "./static/media/CinzelDecorative-Black.a98758b9452a977dba37.ttf",
@@ -20,11 +21,11 @@
     "static/media/facebook.svg": "./static/media/facebook.7947af31fb01d79d27991c96d40fbcd5.svg",
     "static/media/gmail.svg": "./static/media/gmail.212eab62e1bd31824f95d15d1d0d57b2.svg",
     "index.html": "./index.html",
-    "main.ddb266b6.css.map": "./static/css/main.ddb266b6.css.map",
-    "main.4799a47f.js.map": "./static/js/main.4799a47f.js.map"
+    "main.d7409c26.css.map": "./static/css/main.d7409c26.css.map",
+    "main.5a0efd8a.js.map": "./static/js/main.5a0efd8a.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddb266b6.css",
-    "static/js/main.4799a47f.js"
+    "static/css/main.d7409c26.css",
+    "static/js/main.5a0efd8a.js"
   ]
 }
