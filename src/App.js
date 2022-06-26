@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 import NavBar from './components/NavBar';
 import Hero from './components/Hero';
-import Overlay from './components/Hero/Overlay';
-import BookWindow from './components/Hero/BookWindow';
+import Overlay from './components/General/Overlay';
+import BookWindow from './components/General/BookWindow';
 
 const App = () => {
 	const [show, setShow] = useState(true);

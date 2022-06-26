@@ -17,9 +17,9 @@ export default function Hero({ show }) {
 			`}
 		>
 			<div
-				className={`h-[90vh] flex flex-col justify-start items-center`}
+				className={`h-[90vh] flex flex-col justify-center items-center`}
 			>
-				<div className='md:flex flex-row justify-center items-center md:mt-40 lg:mt-10 md:gap-x-10'>
+				<div className='md:flex flex-row justify-center items-center md:mt-40 lg:mt-20 md:gap-x-10'>
 					<DisplayImage
 						src={AnjeshBaranwal}
 						alt={'Anjesh Baranwal'}
