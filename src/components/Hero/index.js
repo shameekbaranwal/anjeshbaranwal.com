@@ -2,7 +2,7 @@ import React from 'react';
 
 import AnjeshBaranwal from '../../assets/images/anjesh_baranwal.png';
 import BookCoverLargeScreen from './BookCoverLargeScreen';
-import DisplayImage from './DisplayImage';
+import DisplayImage from '../General/DisplayImage';
 import NameDisplay from './NameDisplay';
 import Introduction from './Introduction';
 
