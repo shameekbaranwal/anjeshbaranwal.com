@@ -16,7 +16,7 @@ const BhojPatra = ({ children }) => {
 				alt=''
 				className='h-[90vh] md:h-[100vh] w-full hidden lg:block'
 			/>
-			<div className='px-10 md:px-20 py-[2vh] md:py-[5vh] mt-10 md:mt-14 overflow-y-scroll absolute top-0 h-full md:h-[85%]'>
+			<div className='px-10 md:px-20 py-[2vh] md:py-[5vh] mt-10 md:mt-14 overflow-y-scroll absolute top-0 h-full md:h-[85%] no-scrollbar'>
 				{children}
 			</div>
 		</div>
