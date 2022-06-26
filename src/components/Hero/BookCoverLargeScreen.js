@@ -3,7 +3,7 @@ import BookCover from '../../assets/images/cover.png';
 
 export default function BookCoverLargeScreen() {
 	return (
-		<div className='hidden lg:flex mt-14 justify-end items-center'>
+		<div className='hidden lg:flex justify-end items-center'>
 			<img
 				src={BookCover}
 				alt='San Gachhadhvam Book Cover'
