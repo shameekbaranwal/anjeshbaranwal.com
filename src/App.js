@@ -4,6 +4,7 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import Overlay from './components/General/Overlay';
 import BookWindow from './components/General/BookWindow';
+import Preface from './components/Preface';
 
 const App = () => {
 	const [show, setShow] = useState(true);
@@ -14,6 +15,7 @@ const App = () => {
 				<Overlay show={show} setShow={setShow} />
 				<Hero show={show} />
 				<BookWindow />
+				<Preface />
 				<div className='h-screen bg-platinum bg-opacity-[85%] lg:bg-opacity-100'></div>
 			</div>
 		</div>
