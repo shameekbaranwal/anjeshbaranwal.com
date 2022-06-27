@@ -43,6 +43,37 @@ const Hindi = {
 	AboutAuthor: `ys[kd&ifjp;`,
 	AnjeshBaranwalDesc: `ys[kd - la xPN/oe~`,
 	AboutAuthorContent: `v¥~ts'k cjuoky dk tUe lu~ 1973 esa oS';dqy ds ,d O;kikjh ifjokj esa gqvkA x\`g tuin nsofj;k esa çkjfEHkd f'k{kk çkIr djus ds mijkUr mudh ek/;fed f'k{kk mÙkjk[k.M o gfj;k.kk fLFkr fo|ky;ksa esa lEiUu gqbZA Lukrd o ijkLukrd Lrj dh f'k{kk y[kuÅ fo'ofo|ky; ls iw.kZ djus ds mijkUr lu~ 1999 dh mÙkj çns'k jkT; dh flfoy lsok ijh{kk esa mudk p;u gqvkA ifj.kfr Lo:i lu~ 2001 esa mudk inkiZ.k jktdh; lsok esa gks x;kA bl thou&dky esa çR;{k vFkok ijks{k :i ls lEidZ esa vk, vusd O;fä;ksa ds çHkko ds QyLo:i vkSj ns'k&dky&tfur ifjfLFkfr;ksa ls çsfjr gksdj] vius jktdh; nkf;Roksa ds fuoZgu ds lkFk gh lkFk] lu~ 2020 esa mUgksaus ys[kuh mBkus dk ladYi fy;k vkSj vkt ,d ys[kd ds :i esa os vkids le{k mifLFkr gSaA`,
+	ViewMore: `foLr\`r vkys[k`,
+	ReviewsContent: [
+		{
+			name: `çkså ¼M‚å½ lqjsUæ dqekj tk;loky`,
+			about: [
+				`Hkwåiwå foHkkxk/;{k]`,
+				`çkphu Hkkjrh; bfrgkl ,oa iqjkrRo`,
+				`y[kuÅ fo'ofo|ky;`,
+			],
+			review: `Hkkjrh; lH;rk o ijEijkvksa
+			ds ewy ---_Xosn ---rFkk blesa
+			fufgr ekSfyd tkudkjh---çR;sd
+			O;fä rd igqapuh pkfg,]---bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA`,
+		},
+		{
+			name: `çkså ¼M‚å½ lat; f}osnh`,
+			about: [`egkfuns'kd]`, `Hkkjrh; tulapkj laLFkku]`, `ubZ fnYyh`],
+			review: `la xPN/oe~ miU;klekyk fuLlansg bl dky&[k.M ls
+				lEcfU/kr ekSfyd vkSj ikjEifjd rF;ksa dks vius vki esa lesVs gq, gSA 
+				_XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn nykrh gSA`,
+		},
+		{
+			name: `M‚å vfHk"ksd dqekj`,
+			about: [
+				`,lksfl,V çksQslj o Mk;jsDVj`,
+				`vuUr us'kuy ;wfuoflZVh]`,
+				`vgenkckn`,
+			],
+			review: `lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
+		},
+	],
 };
 
 export default Hindi;

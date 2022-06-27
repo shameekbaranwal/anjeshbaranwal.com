@@ -9,6 +9,7 @@ module.exports = {
 					100: '#1E140B',
 					200: '#512C0A',
 					300: '#4F2B0A',
+					400: '#F1DAC4',
 				},
 				oldlace: '#FFF1E8',
 			},
