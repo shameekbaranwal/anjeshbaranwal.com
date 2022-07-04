@@ -5,7 +5,14 @@ import Hindi from '../../constants/Hindi.js';
 import Modal from './Modal.js';
 import BGTexture from '../../assets/images/texture_desktop.png';
 
-export default function ReviewCard({ name, image, about, review }) {
+export default function ReviewCard({
+	name,
+	image,
+	about,
+	briefReview,
+	fullReview,
+	signature,
+}) {
 	const [showModal, setShowModal] = useState(false);
 
 	return (
@@ -45,7 +52,7 @@ export default function ReviewCard({ name, image, about, review }) {
 					className='self-start w-10'
 				/>
 				<p className='text-2xl text-center font-kruti-italic'>
-					{review}
+					{briefReview}
 				</p>
 				<img
 					src={Quotes}
@@ -57,7 +64,16 @@ export default function ReviewCard({ name, image, about, review }) {
 				<p className='text-2xl font-kruti-bold'>{Hindi.ViewMore}</p>
 				<p className='ml-2 text-2xl'>{'...'}</p>
 			</div>
-			<Modal show={showModal} setShow={setShowModal} />
+			<Modal
+				show={showModal}
+				setShow={setShowModal}
+				name={name}
+				image={image}
+				about={about}
+				briefReview={briefReview}
+				fullReview={fullReview}
+				signature={signature}
+			/>
 		</div>
 	);
 }

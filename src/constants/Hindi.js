@@ -52,17 +52,23 @@ const Hindi = {
 				`çkphu Hkkjrh; bfrgkl ,oa iqjkrRo`,
 				`y[kuÅ fo'ofo|ky;`,
 			],
-			review: `Hkkjrh; lH;rk o ijEijkvksa
+			briefReview: `Hkkjrh; lH;rk o ijEijkvksa
 			ds ewy ---_Xosn ---rFkk blesa
 			fufgr ekSfyd tkudkjh---çR;sd
 			O;fä rd igqapuh pkfg,]---bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA`,
+			fullReview: ` ;g ,d fufoZokn rF; gS fd Hkkjrh; lH;rk ds v/;;u ds fy, _Xosn çkphure miyC/k xzUFk ,oa lokZf/kd egRoiw.kZ Jksr gS] ftlds fcuk _XoSfnd dky dk v/;;u lEHko gh ugha gSA fu%lansg _Xosn lafgrk dk v/;;u ,d lgt dk;Z ugha gS vkSj blesa Hkh dbZ dfBukb;ka Lor% lkeus vkrh gSaA lEHko gS fd çkphu Hkkjrh; bfrgkl dk ,d Nk= viuh vko';drkvksa ds vuq:i bldk v/;;u dj ys] ij lkekU; O;fä mlesa fufgr rF;ksa dks tkuus ds fy, bldk v/;;u djsxk] ;g Lohdkj dj ikuk dfBu gSA
+
+			Hkkjrh; lH;rk o ijEijkvksa ds ewy ds :i esa _Xosn dks ns[kk tkuk pkfg, rFkk blesa fufgr ekSfyd tkudkjh Hkh çR;sd O;fä rd igqapuh pkfg,] blls eSa iw.kZr% lger gwaA bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA eq>s fo'okl gS fd vki }kjk fyf[kr miU;kl vius mís';ksa esa lQyrk çkIr djsxhA vkids bl ç;kl dh eSa Hkwfj Hkwfj ç'kalk djrk gwaA bfrgkl ds çfr tkudkj yksxksa ds fy, ;g dk;Z dkQh egRoiw.kZ ,oa Kkuo/kZd gksxk] ,slk esjk ekuuk gSA vkius ftu egRoiw.kZ rF;ksa dks vk/kkj cuk dj fo"k; dks çLrqr djus dk lQy ç;kl fd;k gS] og vkidh nwjnf'kZrk vkSj Kku dk ifjpk;d gSA`,
 		},
 		{
 			name: `çkså ¼M‚å½ lat; f}osnh`,
 			about: [`egkfuns'kd]`, `Hkkjrh; tulapkj laLFkku]`, `ubZ fnYyh`],
-			review: `la xPN/oe~ miU;klekyk fuLlansg bl dky&[k.M ls
+			briefReview: `la xPN/oe~ miU;klekyk fuLlansg bl dky&[k.M ls
 				lEcfU/kr ekSfyd vkSj ikjEifjd rF;ksa dks vius vki esa lesVs gq, gSA 
 				_XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn nykrh gSA`,
+			fullReview: ` ;g ,d fufoZokn rF; gS fd Hkkjrh; lH;rk ds v/;;u ds fy, _Xosn çkphure miyC/k xzUFk ,oa lokZf/kd egRoiw.kZ Jksr gS] ftlds fcuk _XoSfnd dky dk v/;;u lEHko gh ugha gSA fu%lansg _Xosn lafgrk dk v/;;u ,d lgt dk;Z ugha gS vkSj blesa Hkh dbZ dfBukb;ka Lor% lkeus vkrh gSaA lEHko gS fd çkphu Hkkjrh; bfrgkl dk ,d Nk= viuh vko';drkvksa ds vuq:i bldk v/;;u dj ys] ij lkekU; O;fä mlesa fufgr rF;ksa dks tkuus ds fy, bldk v/;;u djsxk] ;g Lohdkj dj ikuk dfBu gSA
+
+			Hkkjrh; lH;rk o ijEijkvksa ds ewy ds :i esa _Xosn dks ns[kk tkuk pkfg, rFkk blesa fufgr ekSfyd tkudkjh Hkh çR;sd O;fä rd igqapuh pkfg,] blls eSa iw.kZr% lger gwaA bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA eq>s fo'okl gS fd vki }kjk fyf[kr miU;kl vius mís';ksa esa lQyrk çkIr djsxhA vkids bl ç;kl dh eSa Hkwfj Hkwfj ç'kalk djrk gwaA bfrgkl ds çfr tkudkj yksxksa ds fy, ;g dk;Z dkQh egRoiw.kZ ,oa Kkuo/kZd gksxk] ,slk esjk ekuuk gSA vkius ftu egRoiw.kZ rF;ksa dks vk/kkj cuk dj fo"k; dks çLrqr djus dk lQy ç;kl fd;k gS] og vkidh nwjnf'kZrk vkSj Kku dk ifjpk;d gSA`,
 		},
 		{
 			name: `M‚å vfHk"ksd dqekj`,
@@ -71,7 +77,10 @@ const Hindi = {
 				`vuUr us'kuy ;wfuoflZVh]`,
 				`vgenkckn`,
 			],
-			review: `lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
+			briefReview: `lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
+			fullReview: ` ;g ,d fufoZokn rF; gS fd Hkkjrh; lH;rk ds v/;;u ds fy, _Xosn çkphure miyC/k xzUFk ,oa lokZf/kd egRoiw.kZ Jksr gS] ftlds fcuk _XoSfnd dky dk v/;;u lEHko gh ugha gSA fu%lansg _Xosn lafgrk dk v/;;u ,d lgt dk;Z ugha gS vkSj blesa Hkh dbZ dfBukb;ka Lor% lkeus vkrh gSaA lEHko gS fd çkphu Hkkjrh; bfrgkl dk ,d Nk= viuh vko';drkvksa ds vuq:i bldk v/;;u dj ys] ij lkekU; O;fä mlesa fufgr rF;ksa dks tkuus ds fy, bldk v/;;u djsxk] ;g Lohdkj dj ikuk dfBu gSA
+
+			Hkkjrh; lH;rk o ijEijkvksa ds ewy ds :i esa _Xosn dks ns[kk tkuk pkfg, rFkk blesa fufgr ekSfyd tkudkjh Hkh çR;sd O;fä rd igqapuh pkfg,] blls eSa iw.kZr% lger gwaA bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA eq>s fo'okl gS fd vki }kjk fyf[kr miU;kl vius mís';ksa esa lQyrk çkIr djsxhA vkids bl ç;kl dh eSa Hkwfj Hkwfj ç'kalk djrk gwaA bfrgkl ds çfr tkudkj yksxksa ds fy, ;g dk;Z dkQh egRoiw.kZ ,oa Kkuo/kZd gksxk] ,slk esjk ekuuk gSA vkius ftu egRoiw.kZ rF;ksa dks vk/kkj cuk dj fo"k; dks çLrqr djus dk lQy ç;kl fd;k gS] og vkidh nwjnf'kZrk vkSj Kku dk ifjpk;d gSA`,
 		},
 	],
 };
