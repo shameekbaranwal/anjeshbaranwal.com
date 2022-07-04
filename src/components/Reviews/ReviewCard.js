@@ -16,24 +16,26 @@ export default function ReviewCard({ name, image, about, review }) {
 				backgroundImage: `url(${BGTexture})`,
 			}}
 		>
-			<div className='flex items-center justify-center w-full px-4 py-10 gap-x-2 md:justify-evenly'>
+			<div className='relative flex items-center justify-center w-full px-4 py-10 gap-x-2 md:justify-evenly'>
 				<img
 					src={image}
 					alt={name}
-					className='w-20 rounded-full ring-2 ring-orange-200 md:w-32 lg:w-28'
+					className='absolute w-24 rounded-full left-2 ring-2 ring-orange-500'
 				/>
-				<div className='flex flex-col'>
-					<p className='px-1 mb-1 text-lg text-white font-kruti bg-brown-200 rounded-r-xl'>
+				<div className='flex flex-col w-full pl-2'>
+					<p className='w-full pl-[5rem] mb-1 text-center text-lg lg:text-xl text-white font-kruti bg-brown-200 rounded-r-xl rounded-l-xl'>
 						{name}
 					</p>
-					{about.map(a => (
-						<p
-							className='font-kruti text-base leading-[1.1]'
-							key={a}
-						>
-							{a}
-						</p>
-					))}
+					<div className='pl-[5.5rem]'>
+						{about.map(a => (
+							<p
+								className='font-kruti text-base leading-[1.1] lg:text-lg lg:leading-[1]'
+								key={a}
+							>
+								{a}
+							</p>
+						))}
+					</div>
 				</div>
 			</div>
 			<div className='flex mb-10'>
