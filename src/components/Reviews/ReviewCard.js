@@ -1,19 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Quotes from '../../assets/icons/quotes.svg';
 import Hindi from '../../constants/Hindi.js';
+import Modal from './Modal.js';
+import BGTexture from '../../assets/images/texture_desktop.png';
 
 export default function ReviewCard({ name, image, about, review }) {
+	const [showModal, setShowModal] = useState(false);
+
 	return (
-		<div className='mx-8 lg:mx-2 shadow-lg bg-gradient-to-tr from-brown-400 to-white h-auto rounded-2xl flex justify-between items-center flex-col max-w-md lg:w-auto lg:h-[32rem] no-scrollbar overflow-y-scroll'>
-			<div className='flex justify-center items-center py-10 px-4 gap-x-2 w-full md:justify-evenly'>
+		<div
+			className='mx-8 lg:mx-2 bg-transparent bg-no-repeat bg-scroll bg-center h-auto rounded-2xl flex justify-between items-center flex-col max-w-md lg:w-auto lg:h-[32rem] no-scrollbar overflow-y-scroll shadow-xl'
+			onClick={() => showModal || setShowModal(true)}
+			style={{
+				backgroundImage: `url(${BGTexture})`,
+			}}
+		>
+			<div className='flex items-center justify-center w-full px-4 py-10 gap-x-2 md:justify-evenly'>
 				<img
 					src={image}
 					alt={name}
-					className='rounded-full ring-2 ring-orange-200 w-20 md:w-32 lg:w-28'
+					className='w-20 rounded-full ring-2 ring-orange-200 md:w-32 lg:w-28'
 				/>
 				<div className='flex flex-col'>
-					<p className='font-kruti text-lg text-white bg-brown-200 px-1 rounded-r-xl mb-1'>
+					<p className='px-1 mb-1 text-lg text-white font-kruti bg-brown-200 rounded-r-xl'>
 						{name}
 					</p>
 					{about.map(a => (
@@ -30,21 +40,22 @@ export default function ReviewCard({ name, image, about, review }) {
 				<img
 					src={Quotes}
 					alt='opening quotation marks'
-					className='w-10 self-start'
+					className='self-start w-10'
 				/>
-				<p className='font-kruti-italic text-2xl text-center'>
+				<p className='text-2xl text-center font-kruti-italic'>
 					{review}
 				</p>
 				<img
 					src={Quotes}
 					alt='closing quotation marks'
-					className='w-10 rotate-180 self-end'
+					className='self-end w-10 rotate-180'
 				/>
 			</div>
-			<div className='self-end mr-6 mb-10 flex'>
-				<p className='font-kruti-bold text-2xl'>{Hindi.ViewMore}</p>
-				<p className='text-2xl ml-2'>{'...'}</p>
+			<div className='flex self-end mb-10 mr-6'>
+				<p className='text-2xl font-kruti-bold'>{Hindi.ViewMore}</p>
+				<p className='ml-2 text-2xl'>{'...'}</p>
 			</div>
+			<Modal show={showModal} setShow={setShowModal} />
 		</div>
 	);
 }
