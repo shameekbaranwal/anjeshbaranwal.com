@@ -18,7 +18,6 @@ export default function ReviewCard({
 	return (
 		<div
 			className='mx-8 lg:mx-2 bg-transparent bg-no-repeat bg-scroll bg-center h-auto rounded-2xl flex justify-between items-center flex-col max-w-md lg:w-auto lg:h-[32rem] no-scrollbar overflow-y-scroll shadow-xl'
-			onClick={() => showModal || setShowModal(true)}
 			style={{
 				backgroundImage: `url(${BGTexture})`,
 			}}
@@ -60,7 +59,10 @@ export default function ReviewCard({
 					className='self-end w-10 rotate-180'
 				/>
 			</div>
-			<div className='flex self-end mb-10 mr-6'>
+			<div
+				className='flex self-end mb-10 mr-6 cursor-pointer'
+				onClick={() => showModal || setShowModal(true)}
+			>
 				<p className='text-2xl font-kruti-bold'>{Hindi.ViewMore}</p>
 				<p className='ml-2 text-2xl'>{'...'}</p>
 			</div>
