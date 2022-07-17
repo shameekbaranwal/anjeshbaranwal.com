@@ -8,6 +8,7 @@ import Preface from './components/Preface';
 import Foreword from './components/Foreword/index.js';
 import AboutAuthor from './components/AboutAuthor/index.js';
 import Reviews from './components/Reviews/index.js';
+import Footer from './components/Footer/index.js';
 
 const App = () => {
 	const [show, setShow] = useState(true);
@@ -22,7 +23,7 @@ const App = () => {
 				<Foreword />
 				<Preface />
 				<AboutAuthor />
-				<div className='h-screen bg-platinum bg-opacity-[85%] lg:bg-opacity-100'></div>
+				<Footer />
 			</div>
 		</div>
 	);
