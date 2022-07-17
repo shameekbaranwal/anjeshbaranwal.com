@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Title from '../General/Title.js';
-import BhojPatra from '../General/BhojPatra.js';
+// import BhojPatra from '../General/BhojPatra.js';
 import Hindi from '../../constants/Hindi.js';
 import AnjeshBaranwalImage from '../../assets/images/anjesh_baranwal.png';
 
@@ -20,18 +20,21 @@ export default function AboutAuthor() {
 						alt='Monika Arora'
 						className='w-48 h-48 border rounded-full shadow-2xl ring-2 ring-neutral-700'
 					/>
-					<h3 className='text-4xl text-center text-transparent font-kokila bg-clip-text bg-gradient-to-b from-black to-brown-300'>
+					<h3 className='mt-2 text-4xl text-center text-transparent font-kokila bg-clip-text bg-gradient-to-b from-black to-brown-300'>
 						{Hindi.Anjesh + ' ' + Hindi.Baranwal}
 					</h3>
 					<p className='-mt-2 text-2xl text-center font-kruti text-brown-300'>
 						{Hindi.AnjeshBaranwalDesc}
 					</p>
 				</div>
-				<BhojPatra mini>
-					<p className='px-10 text-xl text-center font-kruti lg:text-3xl md:px-16 lg:px-20'>
-						{Hindi.AboutAuthorContent}
-					</p>
-				</BhojPatra>
+				{/* <BhojPatra mini> */}
+				<p className='max-w-md px-10 mt-4 text-xl text-center md:max-w-xl lg:max-w-3xl xl:max-w-5xl font-kruti lg:text-3xl md:px-16 lg:px-20'>
+					<span className='text-4xl text-transparent font-kokila bg-clip-text bg-gradient-to-b from-black to-brown-300'>
+						{Hindi.Anjesh + ' ' + Hindi.Baranwal}
+					</span>
+					{Hindi.AboutAuthorContent}
+				</p>
+				{/* </BhojPatra> */}
 			</div>
 		</div>
 	);

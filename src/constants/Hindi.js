@@ -43,7 +43,7 @@ const Hindi = {
 	MonikaAroraDesc: `vf/koäk o ysf[kdk`,
 	AboutAuthor: `ys[kd&ifjp;`,
 	AnjeshBaranwalDesc: `ys[kd - la xPN/oe~`,
-	AboutAuthorContent: `v¥~ts'k cjuoky dk tUe lu~ 1973 esa oS';dqy ds ,d O;kikjh ifjokj esa gqvkA x\`g tuin nsofj;k esa çkjfEHkd f'k{kk çkIr djus ds mijkUr mudh ek/;fed f'k{kk mÙkjk[k.M o gfj;k.kk fLFkr fo|ky;ksa esa lEiUu gqbZA Lukrd o ijkLukrd Lrj dh f'k{kk y[kuÅ fo'ofo|ky; ls iw.kZ djus ds mijkUr lu~ 1999 dh mÙkj çns'k jkT; dh flfoy lsok ijh{kk esa mudk p;u gqvkA ifj.kfr Lo:i lu~ 2001 esa mudk inkiZ.k jktdh; lsok esa gks x;kA bl thou&dky esa çR;{k vFkok ijks{k :i ls lEidZ esa vk, vusd O;fä;ksa ds çHkko ds QyLo:i vkSj ns'k&dky&tfur ifjfLFkfr;ksa ls çsfjr gksdj] vius jktdh; nkf;Roksa ds fuoZgu ds lkFk gh lkFk] lu~ 2020 esa mUgksaus ys[kuh mBkus dk ladYi fy;k vkSj vkt ,d ys[kd ds :i esa os vkids le{k mifLFkr gSaA`,
+	AboutAuthorContent: ` dk tUe lu~ 1973 esa oS';dqy ds ,d O;kikjh ifjokj esa gqvkA x\`g tuin nsofj;k esa çkjfEHkd f'k{kk çkIr djus ds mijkUr mudh ek/;fed f'k{kk mÙkjk[k.M o gfj;k.kk fLFkr fo|ky;ksa esa lEiUu gqbZA Lukrd o ijkLukrd Lrj dh f'k{kk y[kuÅ fo'ofo|ky; ls iw.kZ djus ds mijkUr lu~ 1999 dh mÙkj çns'k jkT; dh flfoy lsok ijh{kk esa mudk p;u gqvkA ifj.kfr Lo:i lu~ 2001 esa mudk inkiZ.k jktdh; lsok esa gks x;kA bl thou&dky esa çR;{k vFkok ijks{k :i ls lEidZ esa vk, vusd O;fä;ksa ds çHkko ds QyLo:i vkSj ns'k&dky&tfur ifjfLFkfr;ksa ls çsfjr gksdj] vius jktdh; nkf;Roksa ds fuoZgu ds lkFk gh lkFk] lu~ 2020 esa mUgksaus ys[kuh mBkus dk ladYi fy;k vkSj vkt ,d ys[kd ds :i esa os vkids le{k mifLFkr gSaA`,
 	ViewMore: `foLr\`r vkys[k`,
 	ReviewsContent: [
 		{
