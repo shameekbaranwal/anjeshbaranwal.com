@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.bb7b468f.css",
-    "main.js": "./static/js/main.2ad3ef9c.js",
+    "main.css": "./static/css/main.1cbd9ebd.css",
+    "main.js": "./static/js/main.9e1daae3.js",
     "static/media/texture_desktop.png": "./static/media/texture_desktop.d5c55871f0caf7a5e8ff.png",
     "static/media/texture_mobile.png": "./static/media/texture_mobile.243c3491366bb4fbca66.png",
     "static/media/cover.png": "./static/media/cover.db09f80cdb4b25a0b849.png",
+    "static/media/Reviewer_4.jpeg": "./static/media/Reviewer_4.6189c4010833d8cf20d8.jpeg",
     "static/media/kokilab.ttf": "./static/media/kokilab.12d06750d06b18fdf43e.ttf",
     "static/media/kokila.ttf": "./static/media/kokila.ba2d61424942a1353337.ttf",
     "static/media/anjesh_baranwal.png": "./static/media/anjesh_baranwal.0798c36c97e98b0b72ad.png",
+    "static/media/Reviewer_2.jpeg": "./static/media/Reviewer_2.8dbd6cbe7840b420d32a.jpeg",
+    "static/media/Reviewer_3.jpeg": "./static/media/Reviewer_3.0aef15d169618dc60d02.jpeg",
     "static/media/monika_arora.png": "./static/media/monika_arora.8ab68300ee6eb312c31f.png",
     "static/media/KRDEV011.TTF": "./static/media/KRDEV011.38bf7cd287772f13059d.TTF",
     "static/media/KRDEV013.TTF": "./static/media/KRDEV013.7e1ebb3cda5988f984fd.TTF",
@@ -18,16 +21,18 @@
     "static/media/CinzelDecorative-Regular.ttf": "./static/media/CinzelDecorative-Regular.c243877d82654b511c69.ttf",
     "static/media/quotes.svg": "./static/media/quotes.9e3adf5c642065f5e75fec8c487a2f6a.svg",
     "static/media/Reviewer_1.png": "./static/media/Reviewer_1.22e5db9a1ee26eccd7f3.png",
+    "static/media/Reviewer_3_signature.png": "./static/media/Reviewer_3_signature.9f2d6326f6c976c4b956.png",
+    "static/media/Reviewer_4_signature.png": "./static/media/Reviewer_4_signature.07ec28ab4987e372f41f.png",
     "static/media/Reviewer_1_signature.png": "./static/media/Reviewer_1_signature.f6b5d0ff3683f6a9d40d.png",
     "static/media/twitter.svg": "./static/media/twitter.1b0ecc8d940613fc0c815eb4902fbcfd.svg",
     "static/media/facebook.svg": "./static/media/facebook.7947af31fb01d79d27991c96d40fbcd5.svg",
     "static/media/gmail.svg": "./static/media/gmail.212eab62e1bd31824f95d15d1d0d57b2.svg",
     "index.html": "./index.html",
-    "main.bb7b468f.css.map": "./static/css/main.bb7b468f.css.map",
-    "main.2ad3ef9c.js.map": "./static/js/main.2ad3ef9c.js.map"
+    "main.1cbd9ebd.css.map": "./static/css/main.1cbd9ebd.css.map",
+    "main.9e1daae3.js.map": "./static/js/main.9e1daae3.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb7b468f.css",
-    "static/js/main.2ad3ef9c.js"
+    "static/css/main.1cbd9ebd.css",
+    "static/js/main.9e1daae3.js"
   ]
 }
