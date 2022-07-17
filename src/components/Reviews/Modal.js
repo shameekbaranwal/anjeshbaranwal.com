@@ -51,7 +51,7 @@ export default function Modal({
 								<img
 									src={image}
 									alt={name}
-									className='border-2 border-black rounded-full w-28'
+									className='border-2 border-black rounded-full w-28 lg:w-36'
 								/>
 								<div className='flex flex-col mx-4 text-lg'>
 									<p className='text-center font-kruti-bold'>
@@ -67,7 +67,7 @@ export default function Modal({
 									))}
 								</div>
 							</div>
-							<div className='flex flex-col text-lg leading-tight font-kruti lg:text-xl'>
+							<div className='flex flex-col text-lg leading-tight font-kruti lg:text-2xl'>
 								{fullReview}
 								<img
 									src={signature}

@@ -13,7 +13,7 @@ export default function NewReviewNavigationButtons({
 					<img
 						src={image}
 						alt='reviewer'
-						className={`w-14 h-14 rounded-full transition-all ring-brown-200 ${
+						className={`w-14 h-14 lg:w-20 lg:h-20 rounded-full transition-all hover:ring ring-brown-200 ${
 							i === reviewIndex
 								? 'ring shadow-lg opacity-100'
 								: 'ring-1 shadow opacity-70'
