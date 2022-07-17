@@ -48,6 +48,11 @@
   }
 
 
+* {
+	scroll-behavior: smooth;
+	scroll-padding-top: 2rem;
+}
+
 .tracking-max {
 	letter-spacing: 0.4em;
 }

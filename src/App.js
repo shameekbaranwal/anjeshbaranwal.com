@@ -14,13 +14,13 @@ const App = () => {
 	return (
 		<div className='w-screen h-full overflow-x-hidden max-w-[100%]'>
 			<NavBar />
-			<div className='pt-14 h-full min-h-screen relative'>
+			<div className='relative h-full min-h-screen pt-14'>
 				<Overlay show={show} setShow={setShow} />
 				<Hero show={show} />
 				<BookWindow />
-				<Preface />
-				<Foreword />
 				<Reviews />
+				<Foreword />
+				<Preface />
 				<AboutAuthor />
 				<div className='h-screen bg-platinum bg-opacity-[85%] lg:bg-opacity-100'></div>
 			</div>

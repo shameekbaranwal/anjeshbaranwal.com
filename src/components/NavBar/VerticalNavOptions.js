@@ -10,11 +10,22 @@ export default function VerticalNavOptions({ isOpen, setIsOpen }) {
 				isOpen ? 'h-[100%] pt-20' : 'h-[0%] pt-14 list-none'
 			}`}
 		>
-			<NavOption href='./#'>{Hindi.Preface}</NavOption>
-			<NavOption href='./#'>{Hindi.Foreword}</NavOption>
-			<NavOption href='./#'>{Hindi.Reviews}</NavOption>
-			<NavOption href='./#'>{Hindi.Author}</NavOption>
-			<SocialMedia className='mt-12 gap-x-8' />
+			<NavOption onClick={() => setIsOpen(false)} href='./#Reviews'>
+				{Hindi.Reviews}
+			</NavOption>
+			<NavOption onClick={() => setIsOpen(false)} href='./#Foreword'>
+				{Hindi.Foreword}
+			</NavOption>
+			<NavOption onClick={() => setIsOpen(false)} href='./#Preface'>
+				{Hindi.Preface}
+			</NavOption>
+			<NavOption onClick={() => setIsOpen(false)} href='./#Author'>
+				{Hindi.Author}
+			</NavOption>
+			<SocialMedia
+				onClick={() => setIsOpen(false)}
+				className='mt-12 gap-x-8'
+			/>
 		</ul>
 	);
 }

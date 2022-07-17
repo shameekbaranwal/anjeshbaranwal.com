@@ -6,11 +6,11 @@ import SocialMedia from './SocialMedia.js';
 
 export default function HorizontalNavOptions() {
 	return (
-		<ul className='hidden md:flex justify-center items-center gap-x-6 lg:gap-x-10'>
-			<NavOption href='./#'>{Hindi.Preface}</NavOption>
-			<NavOption href='./#'>{Hindi.Foreword}</NavOption>
-			<NavOption href='./#'>{Hindi.Reviews}</NavOption>
-			<NavOption href='./#'>{Hindi.Author}</NavOption>
+		<ul className='items-center justify-center hidden md:flex gap-x-6 lg:gap-x-10'>
+			<NavOption href='./#Reviews'>{Hindi.Reviews}</NavOption>
+			<NavOption href='./#Foreword'>{Hindi.Foreword}</NavOption>
+			<NavOption href='./#Preface'>{Hindi.Preface}</NavOption>
+			<NavOption href='./#Author'>{Hindi.Author}</NavOption>
 			<SocialMedia className='gap-x-3.5 lg:gap-x-6' />
 		</ul>
 	);

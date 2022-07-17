@@ -7,26 +7,28 @@ import MonikaAroraImage from '../../assets/images/monika_arora.png';
 
 export default function Foreword() {
 	return (
-		<div className='bg-platinum bg-opacity-[85%] lg:bg-opacity-100 flex flex-col justify-center items-center'>
-			<div className='h-32 w-full'></div>
+		<div
+			className='bg-platinum bg-opacity-[80%] lg:bg-opacity-100 flex flex-col justify-center items-center py-12'
+			id='Foreword'
+		>
 			<Title>{Hindi.Foreword}</Title>
 			<div className='h-0 lg:h-12'></div>
-			<div className='flex flex-col lg:flex-row justify-center items-center w-full'>
+			<div className='flex flex-col items-center justify-center w-full lg:flex-row'>
 				<div className='lg:self-start lg:px-4 lg:-mt-20'>
 					<img
 						src={MonikaAroraImage}
 						alt='Monika Arora'
-						className='w-48 h-48 rounded-full border ring-2 ring-neutral-700 shadow-2xl'
+						className='w-48 h-48 border rounded-full shadow-2xl ring-2 ring-neutral-700'
 					/>
-					<h3 className='font-kruti-bold text-4xl text-transparent bg-clip-text bg-gradient-to-b from-black to-brown-300'>
+					<h3 className='text-4xl text-transparent font-kruti-bold bg-clip-text bg-gradient-to-b from-black to-brown-300'>
 						{Hindi.MonikaAroraName}
 					</h3>
-					<p className='font-kruti text-2xl -mt-2 text-center text-brown-300'>
+					<p className='-mt-2 text-2xl text-center font-kruti text-brown-300'>
 						{Hindi.MonikaAroraDesc}
 					</p>
 				</div>
 				<BhojPatra>
-					<p className='font-kruti text-xl text-center lg:text-3xl'>
+					<p className='text-xl text-center font-kruti lg:text-3xl'>
 						{Hindi.ForewordContent}
 					</p>
 				</BhojPatra>

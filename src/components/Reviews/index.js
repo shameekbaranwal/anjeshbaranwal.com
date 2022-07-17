@@ -16,8 +16,10 @@ export default function Reviews() {
 	} = useReviews();
 
 	return (
-		<div className='bg-platinum bg-opacity-[85%] lg:bg-opacity-100 flex flex-col justify-center items-center '>
-			<div className='w-full h-32'></div>
+		<div
+			className='bg-platinum bg-opacity-[85%] lg:bg-opacity-100 flex flex-col justify-center items-center py-12'
+			id='Reviews'
+		>
 			<Title>{Hindi.Reviews}</Title>
 			<div className='h-10'></div>
 			<NewReviewNavigationButtons

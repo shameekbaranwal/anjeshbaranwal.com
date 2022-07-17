@@ -6,11 +6,13 @@ import BhojPatra from '../General/BhojPatra.js';
 
 export default function Preface() {
 	return (
-		<div className='bg-platinum bg-opacity-[85%] flex flex-col justify-center items-center relative'>
-			<div className='h-10 w-full -z-10'></div>
+		<div
+			className='relative flex flex-col items-center justify-center bg-platinum bg-opacity-[80%] lg:bg-opacity-100 py-24 lg:py-12'
+			id='Preface'
+		>
 			<Title>{Hindi.Preface}</Title>
 			<BhojPatra>
-				<p className='font-kruti text-xl lg:text-3xl text-center'>
+				<p className='text-xl text-center font-kruti lg:text-3xl'>
 					{Hindi.PrefaceContent}
 				</p>
 			</BhojPatra>
