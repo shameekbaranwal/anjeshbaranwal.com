@@ -17,35 +17,28 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 		setTimeout(() => {
 			setOpacity('100%');
 			setReview(currentReview);
-		}, 200);
+		}, 300);
 	}, [currentReview]);
 
 	return (
 		<div
-			className={`mx-8 bg-transparent bg-no-repeat bg-scroll bg-center h-auto rounded-2xl flex justify-between items-center flex-col max-w-md md:w-auto md:h-[32rem] no-scrollbar overflow-y-scroll shadow-xl transition-all duration-200`}
+			className={`mx-8 bg-transparent bg-no-repeat bg-scroll bg-center h-auto rounded-2xl flex justify-between items-center flex-col max-w-md md:w-auto md:h-[32rem] no-scrollbar overflow-y-scroll shadow-xl transition-all duration-300`}
 			style={{
 				backgroundImage: `url(${BGTexture})`,
 				opacity: opacity,
 			}}
 		>
-			<div
-				className='relative flex items-center justify-center w-full px-4 py-10 gap-x-2 md:justify-evenly'
-				style={
-					{
-						// opacity: opacity,
-					}
-				}
-			>
+			<div className='relative flex items-center justify-center w-full px-4 py-10 gap-x-2 md:justify-evenly'>
 				<img
 					src={review?.image}
 					alt={review?.name}
-					className='absolute w-24 transition-all duration-200 rounded-full left-2 ring-2 ring-orange-500'
+					className='absolute w-24 transition-all duration-300 rounded-full left-2 ring-2 ring-orange-500'
 					style={{
 						opacity: opacity,
 					}}
 				/>
 				<div className='flex flex-col w-full pl-2'>
-					<p className='w-full pl-[5rem] mb-1 text-center text-lg lg:text-xl text-white font-kruti bg-brown-200 rounded-r-xl rounded-l-xl'>
+					<p className='w-full pl-[5rem] mb-1 text-center text-lg lg:text-xl text-white font-kruti bg-brown-300 rounded-r-xl rounded-l-xl'>
 						{review?.name}
 					</p>
 					<div className='pl-[5.5rem]'>
@@ -60,14 +53,7 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 					</div>
 				</div>
 			</div>
-			<div
-				className='flex mb-10 transition-all duration-200'
-				style={
-					{
-						// opacity: opacity,
-					}
-				}
-			>
+			<div className='flex mb-10 transition-all duration-300'>
 				<img
 					src={Quotes}
 					alt='opening quotation marks'
@@ -83,13 +69,10 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 				/>
 			</div>
 			<div
-				className='flex self-end mb-10 mr-6 transition-all duration-200 cursor-pointer'
+				className='flex self-end mb-10 mr-6 transition-all duration-300 cursor-pointer'
 				onClick={() => {
 					showModal || setShowModal(true);
 					setEnableAutoScroll(false);
-				}}
-				style={{
-					opacity: opacity,
 				}}
 			>
 				<p className='text-2xl font-kruti-bold'>{Hindi.ViewMore}</p>

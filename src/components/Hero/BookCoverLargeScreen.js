@@ -1,5 +1,5 @@
 import React from 'react';
-import BookCover from '../../assets/images/cover.png';
+import BookCover from '../../assets/images/oldcover.png';
 
 export default function BookCoverLargeScreen() {
 	return (
@@ -7,7 +7,7 @@ export default function BookCoverLargeScreen() {
 			<img
 				src={BookCover}
 				alt='San Gachhadhvam Book Cover'
-				className='lg:-rotate-12 lg:w-[70%] xl:w-[75%] lg:h-auto'
+				className='lg:-rotate-12 shadow-2xl lg:w-[70%] xl:w-[75%] lg:h-auto'
 			/>
 		</div>
 	);

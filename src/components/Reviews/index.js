@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Hindi from '../../constants/Hindi.js';
+// import Hindi from '../../constants/Hindi.js';
+import ReviewHeadingText from '../General/ReviewHeadingText.js';
 import Title from '../General/Title.js';
 import ReviewCard from './ReviewCard.js';
 import NewReviewNavigationButtons from './NewReviewNavigationButtons.js';
@@ -20,7 +21,10 @@ export default function Reviews() {
 			className='bg-platinum bg-opacity-[85%] lg:bg-opacity-100 flex flex-col justify-center items-center py-12'
 			id='Reviews'
 		>
-			<Title>{Hindi.Reviews}</Title>
+			<Title>
+				{/* {Hindi.Reviews} */}
+				<ReviewHeadingText />
+			</Title>
 			<div className='h-10'></div>
 			<NewReviewNavigationButtons
 				reviewIndex={reviewIndex}
