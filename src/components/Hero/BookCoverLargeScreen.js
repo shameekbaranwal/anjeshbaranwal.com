@@ -1,5 +1,5 @@
 import React from 'react';
-import BookCover from '../../assets/images/oldcover.png';
+import BookCover from '../../assets/images/cover.png';
 
 export default function BookCoverLargeScreen() {
 	return (
