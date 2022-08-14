@@ -18,7 +18,7 @@ export default function Reviews() {
 
 	return (
 		<div
-			className='bg-platinum bg-opacity-[85%] lg:bg-opacity-100 flex flex-col justify-center items-center py-12'
+			className='bg-platinum bg-opacity-[80%] lg:bg-opacity-100 flex flex-col justify-center items-center py-12'
 			id='Reviews'
 		>
 			<Title>
