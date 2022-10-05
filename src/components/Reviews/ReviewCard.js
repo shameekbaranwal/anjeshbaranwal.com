@@ -69,7 +69,7 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 				/>
 			</div>
 			<div
-				className='flex self-end mb-10 mr-6 transition-all duration-300 cursor-pointer'
+				className='flex self-end mb-10 mr-6 transition-all duration-100 cursor-pointer hover:scale-[1.1]'
 				onClick={() => {
 					showModal || setShowModal(true);
 					setEnableAutoScroll(false);
