@@ -67,3 +67,34 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
+
+.buy-button {
+	background: linear-gradient(343deg, #ff8900, #ff4e1a, #f7c200);
+	background-size: 600% 600%;
+
+	-webkit-animation: buy-button-anim 5s ease infinite;
+	-moz-animation: buy-button-anim 5s ease infinite;
+	animation: buy-button-anim 5s ease infinite;
+}
+
+.buy-button:hover {
+	-webkit-animation: buy-button-anim 1.5s ease infinite;
+	-moz-animation: buy-button-anim 1.5s ease infinite;
+	animation: buy-button-anim 1.5s ease infinite;
+}
+
+@-webkit-keyframes buy-button-anim {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@-moz-keyframes buy-button-anim {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}
+@keyframes buy-button-anim {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+}

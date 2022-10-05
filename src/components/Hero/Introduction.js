@@ -23,8 +23,16 @@ export default function Introduction() {
 			<img
 				src={Signature}
 				alt='anjesh'
-				className='self-end w-48 -mt-24 md:w-auto'
+				className='self-end w-48 md:w-36 -mt-12'
 			/>
+			<a
+				href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
+				target='_blank'
+				rel='noreferrer'
+				className='text-center text-2xl rounded-lg w-full max-w-md mt-4 mb-12 text-oldlace font-bold py-2 buy-button hover:scale-[1.05] transition duration-100 active:opacity-20'
+			>
+				BUY NOW
+			</a>
 		</div>
 	);
 }

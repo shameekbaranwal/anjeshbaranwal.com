@@ -15,6 +15,7 @@ const Hindi = {
 	Author: `ys[kd&ifjp;`,
 	Anjesh: `अञ्जेश`,
 	Baranwal: `बरनवाल`,
+	BuyNow: `iqLrd Ø;`,
 	Introduction: `gekjk bfrgkl gekjs Hkfo"; dh
 	vk/kkjf'kyk gS vkSj bfrgkl ftruk vf/kd lR; gksxk] Hkfo"; dh fn'kk mruh gh Li"V gksxhA dkYifud dFkk ds ek/;e ls _XoSfnd dky dks m)\`r djus dk ç;kl gS rhu [k.Mksa dh miU;kl la xPN/oe~A`,
 	BookIntroduction: `'la xPN/oE' ,slh dgkuh gS] tks [kqys vkdk'k esa ia[k QSyk, viuh dYiuk dh mM+ku Hkjrs gq, Hkh rF;ksa ds /kjkry dks iwjh –<+rk ds lkFk idM+s gq, gSA ,slk djrs gq, ;g dgkuh _XoSfnd dky ds ok³~e; ds ;FkkFkZ dks çLrqr djus dk ,d lR;fu"B o lkgfld ç;kl djrh gSA _XoSfnd lekt] vFkZuhfr] jktuhfr] /keZ o deZ bR;kfn ls lEcfU/kr vusdkusd rF;ksa dks fijksrs gq, l\`ftr ;g dgkuh Kkuo/kZd gksus ds lkFk gh lkFk mís';ijd Hkh gSA bldk ys[ku fdlh Hkh vk;q&oxZ ds çR;sd ,sls L=h&iq#"k dks /;ku esa j[k dj fd;k x;k gS] tks gekjh lkaL—frd tM+ksa ds çfr rfud Hkh ftKklq gSaA`,
