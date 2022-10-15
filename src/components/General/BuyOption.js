@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BuyOption({ className, name, img, href, onClick }) {
 	return (
-		<div className='relative flex items-center justify-center w-full transition duration-100 hover:scale-110'>
+		<div className='relative flex items-center justify-center w-full transition duration-100 hover:scale-110 hover:z-10'>
 			<img
 				src={img}
 				alt={name}

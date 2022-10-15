@@ -1,12 +1,14 @@
 import React from 'react';
+import { Menu } from '@headlessui/react';
 
 import Signature from '../../assets/images/signature.png';
 import Hindi from '../../constants/Hindi.js';
 import Quotes from '../../assets/icons/quotes.svg';
+import BuyNavDropdown from '../General/BuyNavDropdown.js';
 
 export default function Introduction() {
 	return (
-		<div className='flex flex-col items-center justify-center'>
+		<div className='flex flex-col items-center justify-center pb-12'>
 			<img
 				src={Quotes}
 				alt='quotes'
@@ -23,16 +25,13 @@ export default function Introduction() {
 			<img
 				src={Signature}
 				alt='anjesh'
-				className='self-end w-48 md:w-36 -mt-12'
+				className='self-end w-48 -mt-12 md:w-36'
 			/>
-			<a
-				href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
-				target='_blank'
-				rel='noreferrer'
-				className='text-center text-2xl rounded-lg w-full max-w-md mt-4 mb-12 text-oldlace font-bold py-2 buy-button hover:scale-[1.05] transition duration-100 active:opacity-20'
-			>
-				BUY NOW
-			</a>
+			<BuyNavDropdown>
+				<Menu.Button className='text-center text-2xl rounded-lg w-full max-w-md mt-4 text-oldlace font-bold py-2 buy-button hover:scale-[1.05] transition duration-100 active:opacity-20 '>
+					BUY NOW
+				</Menu.Button>
+			</BuyNavDropdown>
 		</div>
 	);
 }
