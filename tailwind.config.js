@@ -12,6 +12,9 @@ module.exports = {
 					400: '#F1DAC4',
 				},
 				oldlace: '#FFF1E8',
+				hotorange: '#F8981D',
+				hotred: '#ED3237',
+				hotgreen: '#0B934A',
 			},
 			fontFamily: {
 				cinzel: ['cinzel', 'monospace'],
