@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function BuyOption({ className, name, img, href }) {
+export default function BuyOption({ className, name, img, href, onClick }) {
 	return (
 		<div className='relative flex items-center justify-center w-full transition duration-100 hover:scale-110'>
 			<img
@@ -10,7 +10,8 @@ export default function BuyOption({ className, name, img, href }) {
 			/>
 			<a
 				className={`h-10 pl-4 w-full text-left flex justify-center items-center font-bold rounded-r-lg outline-none ${className}`}
-				href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
+				href={href}
+				onClick={onClick}
 				rel='noopener noreferrer'
 				target='_blank'
 			>

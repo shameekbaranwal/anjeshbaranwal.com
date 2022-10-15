@@ -34,18 +34,21 @@ export default function BuyVerticalNav({ closeNavBar }) {
 					name={'Amazon'}
 					className='bg-hotorange'
 					href='https://amzn.eu/d/g5MKH5J'
+					onClick={closeNavBar}
 				/>
 				<BuyOption
 					img={garudaImage}
 					name={'Garuda Prakashan'}
 					className='bg-hotred'
 					href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
+					onClick={closeNavBar}
 				/>
 				<BuyOption
 					img={padhegaIndiaImage}
 					name={'Padhega India'}
 					className='bg-hotgreen'
 					href='http://rzp.io/l/Sangachadwam'
+					onClick={closeNavBar}
 				/>
 			</div>
 		</div>
