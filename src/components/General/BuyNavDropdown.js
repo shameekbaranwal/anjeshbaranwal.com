@@ -20,7 +20,7 @@ export default function BuyNavDropdown({ children }) {
 				leaveFrom='transform opacity-100 scale-100'
 				leaveTo='transform opacity-0 scale-95'
 			>
-				<Menu.Items className='absolute right-0 z-10 w-64 px-4 py-2 mt-2 origin-top-right rounded-md shadow-lg bg-platinum focus:outline-none gap-y-4'>
+				<Menu.Items className='absolute right-0 z-10 px-4 py-2 mt-2 origin-top-right rounded-md shadow-lg w-72 bg-platinum focus:outline-none gap-y-4'>
 					<div className=''>
 						<Menu.Item>
 							{({ active }) => (
