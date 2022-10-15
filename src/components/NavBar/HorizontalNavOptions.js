@@ -4,16 +4,12 @@ import Hindi from '../../constants/Hindi.js';
 import NavOption from './NavOption.js';
 import SocialMedia from './SocialMedia.js';
 import ReviewHeadingText from '../General/ReviewHeadingText.js';
+import BuyHorizontalNav from './BuyHorizontalNav.js';
 
 export default function HorizontalNavOptions() {
 	return (
 		<ul className='items-center justify-center hidden md:flex gap-x-5 lg:gap-x-8 xl:gap-x-14'>
-			<NavOption
-				href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
-				newtab
-			>
-				{Hindi.BuyNow}
-			</NavOption>
+			<BuyHorizontalNav />
 			<NavOption href='./#Reviews'>
 				<ReviewHeadingText />
 			</NavOption>
