@@ -4,7 +4,7 @@ import Reviewer3 from '../assets/images/Reviewer_1.png';
 import Reviewer4 from '../assets/images/Reviewer_2.jpeg';
 import Reviewer5 from '../assets/images/Reviewer_3.jpeg';
 
-import Reviewer1Signature from '../assets/images/Reviewer_5_Signature.png';
+import Reviewer1Signature from '../assets/images/Reviewer_5_signature.png';
 import Reviewer2Signature from '../assets/images/Reviewer_4_signature.png';
 import Reviewer3Signature from '../assets/images/Reviewer_1_signature.png';
 import Reviewer4Signature from '../assets/images/Reviewer_2_signature.png';
