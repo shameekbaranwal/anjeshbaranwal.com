@@ -25,10 +25,10 @@ export default function BuyNavDropdown({ children }) {
 						<Menu.Item>
 							{({ active }) => (
 								<BuyOption
-									img={amazonImage}
-									name={'Amazon'}
-									className='my-2.5 bg-hotorange'
-									href='https://amzn.eu/d/g5MKH5J'
+									img={padhegaIndiaImage}
+									name={'Padhega India'}
+									className='my-2.5 bg-hotgreen'
+									href='http://rzp.io/l/Sangachadwam'
 								/>
 							)}
 						</Menu.Item>
@@ -45,10 +45,10 @@ export default function BuyNavDropdown({ children }) {
 						<Menu.Item>
 							{({ active }) => (
 								<BuyOption
-									img={padhegaIndiaImage}
-									name={'Padhega India'}
-									className='my-2.5 bg-hotgreen'
-									href='http://rzp.io/l/Sangachadwam'
+									img={amazonImage}
+									name={'Amazon'}
+									className='my-2.5 bg-hotorange'
+									href='https://amzn.eu/d/g5MKH5J'
 								/>
 							)}
 						</Menu.Item>

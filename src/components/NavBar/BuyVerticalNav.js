@@ -18,10 +18,10 @@ export default function BuyVerticalNav({ closeNavBar }) {
 			</div>
 			<div className='flex flex-col items-center justify-center w-56 mt-6 gap-y-6'>
 				<BuyOption
-					img={amazonImage}
-					name={'Amazon'}
-					className='bg-hotorange'
-					href='https://amzn.eu/d/g5MKH5J'
+					img={padhegaIndiaImage}
+					name={'Padhega India'}
+					className='bg-hotgreen'
+					href='http://rzp.io/l/Sangachadwam'
 					onClick={closeNavBar}
 				/>
 				<BuyOption
@@ -32,10 +32,10 @@ export default function BuyVerticalNav({ closeNavBar }) {
 					onClick={closeNavBar}
 				/>
 				<BuyOption
-					img={padhegaIndiaImage}
-					name={'Padhega India'}
-					className='bg-hotgreen'
-					href='http://rzp.io/l/Sangachadwam'
+					img={amazonImage}
+					name={'Amazon'}
+					className='bg-hotorange'
+					href='https://amzn.eu/d/g5MKH5J'
 					onClick={closeNavBar}
 				/>
 			</div>
