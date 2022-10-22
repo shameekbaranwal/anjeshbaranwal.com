@@ -1,8 +1,8 @@
 import React from 'react';
-import NavOption from './NavOption.js';
-import SocialMedia from './SocialMedia.js';
+import NavOption from './NavOption';
+import SocialMedia from './SocialMedia';
 import Hindi from '../../constants/Hindi.js';
-import ReviewHeadingText from '../General/ReviewHeadingText.js';
+import ReviewHeadingText from '../General/ReviewHeadingText';
 import BuyVerticalNav from './BuyVerticalNav';
 
 export default function VerticalNavOptions({ isOpen, setIsOpen }) {

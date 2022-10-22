@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import Quotes from '../../assets/icons/quotes.svg';
 import Hindi from '../../constants/Hindi.js';
-import Modal from './Modal.js';
+import Modal from './Modal';
 import BGTexture from '../../assets/images/texture_desktop.png';
 
 export default function ReviewCard({ currentReview, setEnableAutoScroll }) {

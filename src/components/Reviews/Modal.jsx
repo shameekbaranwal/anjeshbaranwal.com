@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BhojPatra from '../General/BhojPatra.js';
+import BhojPatra from '../General/BhojPatra';
 
 export default function Modal({
 	show,

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Title from '../General/Title.js';
+import Title from '../General/Title';
 // import BhojPatra from '../General/BhojPatra.js';
 import Hindi from '../../constants/Hindi.js';
 import AnjeshBaranwalImage from '../../assets/images/anjesh_baranwal.png';

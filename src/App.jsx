@@ -6,10 +6,10 @@ import Hero from './components/Hero';
 import Overlay from './components/General/Overlay';
 import BookWindow from './components/General/BookWindow';
 import Preface from './components/Preface';
-import Foreword from './components/Foreword/index.js';
-import AboutAuthor from './components/AboutAuthor/index.js';
-import Reviews from './components/Reviews/index.js';
-import Footer from './components/Footer/index.js';
+import Foreword from './components/Foreword';
+import AboutAuthor from './components/AboutAuthor';
+import Reviews from './components/Reviews';
+import Footer from './components/Footer';
 
 const App = () => {
 	return (

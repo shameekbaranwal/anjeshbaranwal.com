@@ -4,7 +4,7 @@ import { Menu } from '@headlessui/react';
 import Signature from '../../assets/images/signature.png';
 import Hindi from '../../constants/Hindi.js';
 import Quotes from '../../assets/icons/quotes.svg';
-import BuyNavDropdown from '../General/BuyNavDropdown.js';
+import BuyNavDropdown from '../General/BuyNavDropdown';
 
 export default function Introduction() {
 	return (

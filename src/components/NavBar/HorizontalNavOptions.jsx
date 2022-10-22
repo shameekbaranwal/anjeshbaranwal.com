@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Hindi from '../../constants/Hindi.js';
-import NavOption from './NavOption.js';
-import SocialMedia from './SocialMedia.js';
-import ReviewHeadingText from '../General/ReviewHeadingText.js';
-import BuyHorizontalNav from './BuyHorizontalNav.js';
+import NavOption from './NavOption';
+import SocialMedia from './SocialMedia';
+import ReviewHeadingText from '../General/ReviewHeadingText';
+import BuyHorizontalNav from './BuyHorizontalNav';
 
 export default function HorizontalNavOptions() {
 	return (

@@ -1,10 +1,10 @@
 import React from 'react';
 
 // import Hindi from '../../constants/Hindi.js';
-import ReviewHeadingText from '../General/ReviewHeadingText.js';
-import Title from '../General/Title.js';
-import ReviewCard from './ReviewCard.js';
-import NewReviewNavigationButtons from './NewReviewNavigationButtons.js';
+import ReviewHeadingText from '../General/ReviewHeadingText';
+import Title from '../General/Title';
+import ReviewCard from './ReviewCard';
+import NewReviewNavigationButtons from './NewReviewNavigationButtons';
 import useReviews from '../../hooks/useReviews.js';
 
 export default function Reviews() {

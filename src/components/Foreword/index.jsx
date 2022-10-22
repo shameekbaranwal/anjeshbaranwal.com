@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Title from '../General/Title.js';
-import BhojPatra from '../General/BhojPatra.js';
+import Title from '../General/Title';
+import BhojPatra from '../General/BhojPatra';
 import Hindi from '../../constants/Hindi.js';
 import MonikaAroraImage from '../../assets/images/monika_arora.png';
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Hindi from '../../constants/Hindi.js';
 import Title from '../General/Title';
-import BhojPatra from '../General/BhojPatra.js';
+import BhojPatra from '../General/BhojPatra';
 
 export default function Preface() {
 	return (

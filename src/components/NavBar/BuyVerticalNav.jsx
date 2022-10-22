@@ -5,7 +5,7 @@ import amazonImage from '../../assets/images/amazon.png';
 import garudaImage from '../../assets/images/garuda.png';
 import padhegaIndiaImage from '../../assets/images/padhegaindia.png';
 import Hindi from '../../constants/Hindi.js';
-import BuyOption from '../General/BuyOption.js';
+import BuyOption from '../General/BuyOption';
 
 export default function BuyVerticalNav({ closeNavBar }) {
 	return (

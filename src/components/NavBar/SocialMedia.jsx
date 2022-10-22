@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SocialIcon from './SocialIcon.js';
+import SocialIcon from './SocialIcon';
 import FacebookIcon from '../../assets/icons/facebook.svg';
 import GmailIcon from '../../assets/icons/gmail.svg';
 import TwitterIcon from '../../assets/icons/twitter.svg';

@@ -1,7 +1,7 @@
 import { Fragment } from 'react';
 import { Menu, Transition } from '@headlessui/react';
 
-import BuyOption from './BuyOption.js';
+import BuyOption from './BuyOption';
 import amazonImage from '../../assets/images/amazon.png';
 import garudaImage from '../../assets/images/garuda.png';
 import padhegaIndiaImage from '../../assets/images/padhegaindia.png';
@@ -22,36 +22,24 @@ export default function BuyNavDropdown({ children }) {
 			>
 				<Menu.Items className='absolute right-0 z-10 px-4 py-2 mt-2 origin-top-right rounded-md shadow-lg w-72 bg-platinum focus:outline-none gap-y-4'>
 					<div className=''>
-						<Menu.Item>
-							{({ active }) => (
-								<BuyOption
-									img={padhegaIndiaImage}
-									name={'Padhega India'}
-									className='my-2.5 bg-hotgreen'
-									href='http://rzp.io/l/Sangachadwam'
-								/>
-							)}
-						</Menu.Item>
-						<Menu.Item>
-							{({ active }) => (
-								<BuyOption
-									img={garudaImage}
-									name={'Garuda Prakashan'}
-									className='my-2.5 bg-hotred'
-									href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
-								/>
-							)}
-						</Menu.Item>
-						<Menu.Item>
-							{({ active }) => (
-								<BuyOption
-									img={amazonImage}
-									name={'Amazon'}
-									className='my-2.5 bg-hotorange'
-									href='https://amzn.eu/d/g5MKH5J'
-								/>
-							)}
-						</Menu.Item>
+						<BuyOption
+							img={padhegaIndiaImage}
+							name={'Padhega India'}
+							className='my-2.5 bg-hotgreen'
+							href='http://rzp.io/l/Sangachadwam'
+						/>
+						<BuyOption
+							img={garudaImage}
+							name={'Garuda Prakashan'}
+							className='my-2.5 bg-hotred'
+							href='https://garudabooks.com/sangachchhadhvam-sindhu-tat-ka-anaam-gaaon'
+						/>
+						<BuyOption
+							img={amazonImage}
+							name={'Amazon'}
+							className='my-2.5 bg-hotorange'
+							href='https://amzn.eu/d/g5MKH5J'
+						/>
 					</div>
 				</Menu.Items>
 			</Transition>

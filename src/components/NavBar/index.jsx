@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import HorizontalNavOptions from './HorizontalNavOptions.js';
+import HorizontalNavOptions from './HorizontalNavOptions';
 import NavBrand from './NavBrand';
 import NavToggleButton from './NavToggleButton';
-import VerticalNavOptions from './VerticalNavOptions.js';
+import VerticalNavOptions from './VerticalNavOptions';
 
 export default function NavBar() {
 	const [isOpen, setIsOpen] = useState(false);
