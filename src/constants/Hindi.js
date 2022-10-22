@@ -1,11 +1,14 @@
-import Reviewer1 from '../assets/images/Reviewer_4.jpeg';
-import Reviewer2 from '../assets/images/Reviewer_1.png';
-import Reviewer3 from '../assets/images/Reviewer_2.jpeg';
-import Reviewer4 from '../assets/images/Reviewer_3.jpeg';
-import Reviewer1Signature from '../assets/images/Reviewer_4_signature.png';
-import Reviewer2Signature from '../assets/images/Reviewer_1_signature.png';
-import Reviewer3Signature from '../assets/images/Reviewer_2_signature.png';
-import Reviewer4Signature from '../assets/images/Reviewer_3_signature.png';
+import Reviewer1 from '../assets/images/Reviewer_5.jpg';
+import Reviewer2 from '../assets/images/Reviewer_4.jpeg';
+import Reviewer3 from '../assets/images/Reviewer_1.png';
+import Reviewer4 from '../assets/images/Reviewer_2.jpeg';
+import Reviewer5 from '../assets/images/Reviewer_3.jpeg';
+
+import Reviewer1Signature from '../assets/images/Reviewer_5_Signature.png';
+import Reviewer2Signature from '../assets/images/Reviewer_4_signature.png';
+import Reviewer3Signature from '../assets/images/Reviewer_1_signature.png';
+import Reviewer4Signature from '../assets/images/Reviewer_2_signature.png';
+import Reviewer5Signature from '../assets/images/Reviewer_3_signature.png';
 
 const Hindi = {
 	Preface: 'çLrkouk',
@@ -58,6 +61,15 @@ const Hindi = {
 	ViewMore: `foLr\`r vkys[k`,
 	ReviewsContent: [
 		{
+			name: `M‚- lq/kka'kq f=osnh`,
+			about: [`lkaln`, `jkT; lHkk`],
+			briefReview: `_Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA`,
+			fullReview: `fo'o ds çkphure fyf[kr xzUFk] _xosn esa rRo] n'kZu] Kku] fl)kUr ds vusd xw<+ jgL;ksa ds lkFk vusd dFkkud ,oa lkfgfR;d çLrqfr;k¡ Hkh gSaA vkt _Xosn dks xgurk ds lkFk le>us dh #fp vkSj {kerk fujUrj gh de gksrh tk jgh gSA vr% _Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA
+			iqLrd ds ys[kd v¥~ts'k th lkekftd {ks=ksa esa viuk thou lefiZr dj jgs ,d vknj.kh; egkuqHkko ds ek/;e ls esjs lEidZ esa vk,A muds }kjk fyf[kr ;g miU;klekyk 'la xPN/oE' ds çFke [k.M 'flU/kq rV dk vuke xk¡o' osnksa ds fo"k; dks ,d vkd"kZd] lgt vkSj cks/kxE; :i esa çLrqr djus dk ,d ljkguh; ç;kl jgk gSA Hkkjrh; ijEijk esa dFkkvksa dk ,d egRoiw.kZ ;ksxnku gS D;ksafd dFkk,a dYiuk dk vk/kkj ysdj Hkh çkekf.kd thou&ewY;ksa dks lekt esa LFkkfir djus dk ,d lgt ek/;e curh gSaA eq>s fo'okl gS fd vats'k th dh ;g miU;klekyk bl fn'kk esa lekt esa ,d lkFkZd çHkko NksM+us esa lQy gksxhA`,
+			image: Reviewer1,
+			signature: Reviewer1Signature,
+		},
+		{
 			name: `eukst eqUrf'kj`,
 			about: [
 				`dfo] ys[kd o xhrdkj`,
@@ -68,8 +80,8 @@ const Hindi = {
 			fullReview: `bfrgkl] fuLlansg] ,d lkFkZd Hkfo"; dh l'kä vk/kkjf'kyk vkSj orZeku dk çfrfcEc gksrk gSA gekjk vrhr gh gekjs O;fäRo ds fuekZ.k dk ekxZ ç'kLr djrk gSA ijUrq dky dk çokg dqN ,slk jgk fd gekjs bfrgkl ds dqN iUus fo—r gks pys vkSj dqN dks geus iyVuk gh NksM+ fn;kA
 			eq>s çlUurk gS fd uoksfnr miU;kldkj v¥~ts'k cjuoky vius miU;kl 'la xPN/oE' ds ek/;e ls gekjs çkphure bfrgkl dh Le\`fr;ksa dks rktk djus dk ç;kl dj jgs gSaA _Xosn tSls fo"k; dks miU;kl ds çk:i esa <kyus dk ;g xEHkhj ç;Ru fuf'pr gh ç'kUluh; gSA 
 			`,
-			image: Reviewer1,
-			signature: Reviewer1Signature,
+			image: Reviewer2,
+			signature: Reviewer2Signature,
 		},
 		{
 			name: `çkså ¼M‚å½ lqjsUæ dqekj tk;loky`,
@@ -85,8 +97,8 @@ const Hindi = {
 			fullReview: ` ;g ,d fufoZokn rF; gS fd Hkkjrh; lH;rk ds v/;;u ds fy, _Xosn çkphure miyC/k xzUFk ,oa lokZf/kd egRoiw.kZ Jksr gS] ftlds fcuk _XoSfnd dky dk v/;;u lEHko gh ugha gSA fu%lansg _Xosn lafgrk dk v/;;u ,d lgt dk;Z ugha gS vkSj blesa Hkh dbZ dfBukb;ka Lor% lkeus vkrh gSaA lEHko gS fd çkphu Hkkjrh; bfrgkl dk ,d Nk= viuh vko';drkvksa ds vuq:i bldk v/;;u dj ys] ij lkekU; O;fä mlesa fufgr rF;ksa dks tkuus ds fy, bldk v/;;u djsxk] ;g Lohdkj dj ikuk dfBu gSA
 
 			Hkkjrh; lH;rk o ijEijkvksa ds ewy ds :i esa _Xosn dks ns[kk tkuk pkfg, rFkk blesa fufgr ekSfyd tkudkjh Hkh çR;sd O;fä rd igqapuh pkfg,] blls eSa iw.kZr% lger gwaA bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA eq>s fo'okl gS fd vki }kjk fyf[kr miU;kl vius mís';ksa esa lQyrk çkIr djsxhA vkids bl ç;kl dh eSa Hkwfj Hkwfj ç'kalk djrk gwaA bfrgkl ds çfr tkudkj yksxksa ds fy, ;g dk;Z dkQh egRoiw.kZ ,oa Kkuo/kZd gksxk] ,slk esjk ekuuk gSA vkius ftu egRoiw.kZ rF;ksa dks vk/kkj cuk dj fo"k; dks çLrqr djus dk lQy ç;kl fd;k gS] og vkidh nwjnf'kZrk vkSj Kku dk ifjpk;d gSA`,
-			image: Reviewer2,
-			signature: Reviewer2Signature,
+			image: Reviewer3,
+			signature: Reviewer3Signature,
 		},
 		{
 			name: `çkså ¼M‚å½ lat; f}osnh`,
@@ -96,8 +108,8 @@ const Hindi = {
 				_XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn nykrh gSA`,
 			fullReview: `_XoSfnd bfrgkl ij ftl Lrj ds 'kks/k dh vko';drk gS] ml Lrj ds 'kks/k dh deh vHkh Hkh eu esa ,d Vhl mRiUu djrh gSA bl fo"k; ij i;kZIr 'kks/k dh laHkkouk,a vHkh Hkh fo|eku gSa] ,slk esjk fo'okl gS vkSj vkids miU;kl ds v/;;u us esjs bl fo'okl dks vkSj Hkh iq[rk dj fn;k gSA eSa ikrk gwa fd i;kZIr 'kks/k ds vHkko ds nq"ifj.kke Lo:i gh tu&ekul esa bl dky&[k.M ds çfr vusd Hkzkafr;ksa us viuk LFkku Hkh cuk fy;k gS] tks fd bfrgklcks/k ds lEcU/k esa loZFkk ,d vuqfpr y{k.k gSA eq>s fo'okl gS fd miU;kl ds ek/;e ls fd;k x;k vkidk ;g ç;kl _XoSfnd dky ds bfrgkl ds 'kks/k dh fn'kk esa ,d ldkjkRed ppkZ dks vkxs c<+k,xkA
 			vki }kjk jfpr 'la xPN/oE' miU;klekyk fuLlansg bl dky&[k.M ls lEcfU/kr ekSfyd vkSj ikjEifjd rF;ksa dks vius vki esa lesVs gq, gSA _XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn fnykrh gS] ftlesa thou ds ewY;ksa dks O;ä djus ds fy, dgkfu;ksa dk lgkjk fy;k x;k gSA vkidk ;g ç;kl fuf'pr :i ls ç'kaluh; o ljkguh; gSA vkids bl ç;kl dh lQyrk dh eSa ân; ls eaxydkeuk djrk gwaA eq>s mEehn gSa fd ;g —fr ikBdksa dk I;kj ik,xhA`,
-			image: Reviewer3,
-			signature: Reviewer3Signature,
+			image: Reviewer4,
+			signature: Reviewer4Signature,
 		},
 		{
 			name: `M‚å vfHk"ksd dqekj`,
@@ -109,8 +121,8 @@ const Hindi = {
 			briefReview: `lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
 			fullReview: `_Xosn ds fc[kjs gq, eudksa :ih fo"k;ksa dks ,d dgkuh&:ih ekyk esa fijksrs gq, dgkuh ds :i esa _Xosn dks çLrqr djuk] miU;kl ds ys[ku esa dh xbZ bl fo/kk ds p;u us çR;sd O;fä rd _Xosn dh igqap dks ljy ds lkFk gh lkFk laHko Hkh cuk fn;k gS] ftldh ftruh ç'kalk dh tk,] og de gSA 
 			rRdkyhu lekt dh lkekftd&vkfFkZd n'kk ds vk/kkj ij xqFkh xbZ ;g dgkuh çkjEHk esa lUrku dh dkeuk tSls ljy o lkekU; fo"k; ls çkjEHk gksrh gSA ij vkxs c<+us ds lkFk&lkFk jktæksg o bUlsLV tSls tfVy fo"k;ksa dks Hkh Nwus ls ijgst ugha djrh gSA lekt ds mRFkku esa ukjh dh Hkwfedk dk ftruh lgtrk ls o.kZu fd;k x;k gS] og vpfEHkr Hkh djrk gS vkSj ;g bl miU;kl ds lokZf/kd etcwr i{k ds :i esa Hkh mHkj dj lkeus vkrk gSA lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
-			image: Reviewer4,
-			signature: Reviewer4Signature,
+			image: Reviewer5,
+			signature: Reviewer5Signature,
 		},
 	],
 };
