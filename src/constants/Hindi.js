@@ -63,7 +63,7 @@ const Hindi = {
 		{
 			name: `M‚- lq/kka'kq f=osnh`,
 			about: [`lkaln`, `jkT; lHkk`],
-			briefReview: `_Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA`,
+			briefReview: `vkt _Xosn dks xgurk ds lkFk le>us dh #fp vkSj {kerk fujUrj gh de gksrh tk jgh gSA vr% _Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA`,
 			fullReview: `fo'o ds çkphure fyf[kr xzUFk] _xosn esa rRo] n'kZu] Kku] fl)kUr ds vusd xw<+ jgL;ksa ds lkFk vusd dFkkud ,oa lkfgfR;d çLrqfr;k¡ Hkh gSaA vkt _Xosn dks xgurk ds lkFk le>us dh #fp vkSj {kerk fujUrj gh de gksrh tk jgh gSA vr% _Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA
 			iqLrd ds ys[kd v¥~ts'k th lkekftd {ks=ksa esa viuk thou lefiZr dj jgs ,d vknj.kh; egkuqHkko ds ek/;e ls esjs lEidZ esa vk,A muds }kjk fyf[kr ;g miU;klekyk 'la xPN/oE' ds çFke [k.M 'flU/kq rV dk vuke xk¡o' osnksa ds fo"k; dks ,d vkd"kZd] lgt vkSj cks/kxE; :i esa çLrqr djus dk ,d ljkguh; ç;kl jgk gSA Hkkjrh; ijEijk esa dFkkvksa dk ,d egRoiw.kZ ;ksxnku gS D;ksafd dFkk,a dYiuk dk vk/kkj ysdj Hkh çkekf.kd thou&ewY;ksa dks lekt esa LFkkfir djus dk ,d lgt ek/;e curh gSaA eq>s fo'okl gS fd vats'k th dh ;g miU;klekyk bl fn'kk esa lekt esa ,d lkFkZd çHkko NksM+us esa lQy gksxhA`,
 			image: Reviewer1,
