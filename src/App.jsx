@@ -10,6 +10,7 @@ import Foreword from './components/Foreword';
 import AboutAuthor from './components/AboutAuthor';
 import Reviews from './components/Reviews';
 import Footer from './components/Footer';
+import TwitterFeed from './components/TwitterFeed';
 
 const App = () => {
 	return (
@@ -34,6 +35,7 @@ const MainAppComponent = () => {
 				<Hero show={show} />
 				<BookWindow />
 				<Reviews />
+				<TwitterFeed />
 				<Foreword />
 				<Preface />
 				<AboutAuthor />
