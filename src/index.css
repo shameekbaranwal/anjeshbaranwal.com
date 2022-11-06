@@ -98,3 +98,8 @@
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
 }
+
+.custom-scrollbar {
+	/* thick back border */
+	scrollbar-color: rgba("0, 0, 0, 1") #f7c200;
+}
