@@ -114,7 +114,7 @@ const TwitterTimelineEmbed = props => {
 	return (
 		<>
 			{loading && <>{props.placeholder}</>}
-			<div className='custom-scrollbar' ref={ref} />
+			<div ref={ref} />
 		</>
 	);
 };
