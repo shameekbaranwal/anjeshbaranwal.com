@@ -19,9 +19,8 @@ const Hindi = {
 	Anjesh: `अञ्जेश`,
 	Baranwal: `बरनवाल`,
 	BuyNow: `पुस्तक क्रय`,
-	// Introduction: `gekjk bfrgkl gekjs Hkfo"; dh
-	// vk/kkjf'kyk gS vkSj bfrgkl ftruk vf/kd lR; gksxk] Hkfo"; dh fn'kk mruh gh Li"V gksxhA dkYifud dFkk ds ek/;e ls _XoSfnd dky dks m)\`r djus dk ç;kl gS rhu [k.Mksa dh miU;kl la xPN/oe~A`,
-	Introduction: `हमारा इतिहास हमारे भविष्य की आधारशिला है और इतिहास जितना अधिक सत्य होगा, भविष्य की दिशा उतनी ही स्पष्ट होगी। काल्पनिक कथा के माध्यम से ऋग्वैदिक काल को उद्धत करने का प्रयास है तीन खण्डों की उपन्यास सं गच्छध्वम्।`,
+	// Introduction: `gekjk bfrgkl gekjs Hkfo"; dh vk/kkjf'kyk gS vkSj bfrgkl ftruk vf/kd lR; gksxk] Hkfo"; dh fn'kk mruh gh Li"V gksxhA dkYifud dFkk ds ek/;e ls _XoSfnd dky dks m)`r djus dk ç;kl gS rhu [k.Mksa dh miU;kl la xPN/oe~A`,
+	Introduction: `हमारा इतिहास हमारे भविष्य की आधारशिला है और इतिहास जितना अधिक सत्य होगा, भविष्य की दिशा उतनी ही स्पष्ट होगी। काल्पनिक कथा के माध्यम से ऋग्वैदिक काल को उद्धृत करने का प्रयास है तीन खण्डों की उपन्यास सं गच्छध्वम्।`,
 	BookIntroduction: `'la xPN/oE' ,slh dgkuh gS] tks [kqys vkdk'k esa ia[k QSyk, viuh dYiuk dh mM+ku Hkjrs gq, Hkh rF;ksa ds /kjkry dks iwjh –<+rk ds lkFk idM+s gq, gSA ,slk djrs gq, ;g dgkuh _XoSfnd dky ds ok³~e; ds ;FkkFkZ dks çLrqr djus dk ,d lR;fu"B o lkgfld ç;kl djrh gSA _XoSfnd lekt] vFkZuhfr] jktuhfr] /keZ o deZ bR;kfn ls lEcfU/kr vusdkusd rF;ksa dks fijksrs gq, l\`ftr ;g dgkuh Kkuo/kZd gksus ds lkFk gh lkFk mís';ijd Hkh gSA bldk ys[ku fdlh Hkh vk;q&oxZ ds çR;sd ,sls L=h&iq#"k dks /;ku esa j[k dj fd;k x;k gS] tks gekjh lkaL—frd tM+ksa ds çfr rfud Hkh ftKklq gSaA`,
 	PrefaceContent: `nSo&çsfjr çkjEHk gqvk vkRe&fpUru vkSj mlds ifj.kke Lo:i ,d çsj.kk] ,d ,slh çsj.kk] ftlus lekt dks okil dqN nsus dk ladYi ysus dks foo'k fd;kA lekt dks dqN nsus ds fo"k; ij tc eSaus euu djuk çkjEHk fd;k rks vusd çdkj ds ldkjkRed o udkjkRed fopkjksa ds lkFk gh lkFk vusd çdkj ds nqfo/kkvksa us Hkh eu dks ?ksjk vkSj eu /khjs&/khjs eu dqUn Hkh gqvkA ij bu lHkh fopkjksa vkSj nqfo/kkvksa ds chp tc lkeus viuh vxyh ih<+h ij –f"V xbZ rks eu ds lHkh fopkj ,dkaxh gks x, vkSj lHkh nqfo/kk,¡ foyksfir gksus yxhaA 
 	lkeus [kM+h bl ubZ ih<+h dk ykyu&ikyu ,dy&ifjokj esa vkSj f'k{kk&nh{kk vaxzsth ek/;e ds fo|ky;ksa esa gks jgh FkhA ;g bl feêh dh ijEijkvksa ds ckjs esa flQZ mruk gh tku ik jgh Fkh] ftlls fd cl bldk dke py tk jgk FkkA ;g ih<+h bl feêh dh ijEijkvksa dh okgd cu ldsxh] blesa eq>s lUnsg fn[kkA bUgha fopkjksa ds lkFk esjh –f"V tc bl ih<+h ij iM+h rks bl fØ;k dh çfrfØ;k us eq>s Lo;a vius Hkhrj Hkh >k¡dus ds fy, iqu% ,d ckj foo'k fd;kA bl iwjs ?kVukØe ij lexz :i ls tc –f"Vikr fd;k rks ekuks esjs  iSjksa ds uhps ls tehu gh f[kld xbZA eSa Lo;a dgk¡ [kM+k Fkk] ;g ns[kdj eSa nax jg x;kA ,slk dHkh lkspk Hkh ugha FkkA vxyh ih<+h rks D;k] esjh Lo;a dh fLFkfr Hkh buls dqN fo'ks"k fHkUu ugha feyhA jk"Vªdfo eSfFkyh 'kj.k xqIr dh os iafä;ka esjs eu esa dkSa/k xbZa] tks dgrh gSa]
@@ -59,69 +58,69 @@ const Hindi = {
 	AboutAuthor: `ys[kd&ifjp;`,
 	AnjeshBaranwalDesc: `ys[kd - la xPN/oe~`,
 	AboutAuthorContent: ` dk tUe lu~ 1973 esa oS';dqy ds ,d O;kikjh ifjokj esa gqvkA x\`g tuin nsofj;k esa çkjfEHkd f'k{kk çkIr djus ds mijkUr mudh ek/;fed f'k{kk mÙkjk[k.M o gfj;k.kk fLFkr fo|ky;ksa esa lEiUu gqbZA Lukrd o ijkLukrd Lrj dh f'k{kk y[kuÅ fo'ofo|ky; ls iw.kZ djus ds mijkUr lu~ 1999 dh mÙkj çns'k jkT; dh flfoy lsok ijh{kk esa mudk p;u gqvkA ifj.kfr Lo:i lu~ 2001 esa mudk inkiZ.k jktdh; lsok esa gks x;kA bl thou&dky esa çR;{k vFkok ijks{k :i ls lEidZ esa vk, vusd O;fä;ksa ds çHkko ds QyLo:i vkSj ns'k&dky&tfur ifjfLFkfr;ksa ls çsfjr gksdj] vius jktdh; nkf;Roksa ds fuoZgu ds lkFk gh lkFk] lu~ 2020 esa mUgksaus ys[kuh mBkus dk ladYi fy;k vkSj vkt ,d ys[kd ds :i esa os vkids le{k mifLFkr gSaA`,
-	ViewMore: `foLr\`r vkys[k`,
+	ViewMore: `विस्तृत आलेख`,
 	ReviewsContent: [
 		{
-			name: `M‚- lq/kka'kq f=osnh`,
-			about: [`lkaln`, `jkT; lHkk`],
-			briefReview: `vkt _Xosn dks xgurk ds lkFk le>us dh #fp vkSj {kerk fujUrj gh de gksrh tk jgh gSA vr% _Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA`,
-			fullReview: `fo'o ds çkphure fyf[kr xzUFk] _xosn esa rRo] n'kZu] Kku] fl)kUr ds vusd xw<+ jgL;ksa ds lkFk vusd dFkkud ,oa lkfgfR;d çLrqfr;k¡ Hkh gSaA vkt _Xosn dks xgurk ds lkFk le>us dh #fp vkSj {kerk fujUrj gh de gksrh tk jgh gSA vr% _Xosn ds ewy rRoksa dk vk/kkj ysdj mls ,d lkfgfR;d] vkSiU;kfld jkspdrk ds lkFk çLrqr djuk ;qxkuqdwy –f"V ls ,d mi;qä ç;kl gSA
-			iqLrd ds ys[kd v¥~ts'k th lkekftd {ks=ksa esa viuk thou lefiZr dj jgs ,d vknj.kh; egkuqHkko ds ek/;e ls esjs lEidZ esa vk,A muds }kjk fyf[kr ;g miU;klekyk 'la xPN/oE' ds çFke [k.M 'flU/kq rV dk vuke xk¡o' osnksa ds fo"k; dks ,d vkd"kZd] lgt vkSj cks/kxE; :i esa çLrqr djus dk ,d ljkguh; ç;kl jgk gSA Hkkjrh; ijEijk esa dFkkvksa dk ,d egRoiw.kZ ;ksxnku gS D;ksafd dFkk,a dYiuk dk vk/kkj ysdj Hkh çkekf.kd thou&ewY;ksa dks lekt esa LFkkfir djus dk ,d lgt ek/;e curh gSaA eq>s fo'okl gS fd vats'k th dh ;g miU;klekyk bl fn'kk esa lekt esa ,d lkFkZd çHkko NksM+us esa lQy gksxhA`,
+			name: `डॉ. सुधांशु त्रिवेदी`,
+			about: [`सांसद`, `राज्य सभा`],
+			briefReview: `आज ऋग्वेद को गहनता के साथ समझने की रुचि और क्षमता निरन्तर ही कम होती जा रही है। अतः ऋग्वेद के मूल तत्वों का आधार लेकर उसे एक साहित्यिक, औपन्यासिक रोचकता के साथ प्रस्तुत करना युगानुकूल दृष्टि से एक उपयुक्त प्रयास है।`,
+			fullReview: `विश्व के प्राचीनतम लिखित ग्रन्थ, ऋगवेद में तत्व, दर्शन, ज्ञान, सिद्धान्त के अनेक गूढ़ रहस्यों के साथ अनेक कथानक एवं साहित्यिक प्रस्तुतियाँ भी हैं। आज ऋग्वेद को गहनता के साथ समझने की रुचि और क्षमता निरन्तर ही कम होती जा रही है। अतः ऋग्वेद के मूल तत्वों का आधार लेकर उसे एक साहित्यिक, औपन्यासिक रोचकता के साथ प्रस्तुत करना युगानुकूल दृष्टि से एक उपयुक्त प्रयास है।
+			पुस्तक के लेखक अञ्जेश जी सामाजिक क्षेत्रों में अपना जीवन समर्पित कर रहे एक आदरणीय महानुभाव के माध्यम से मेरे सम्पर्क में आए। उनके द्वारा लिखित यह उपन्यासमाला श्सं गच्छध्वम्श् के प्रथम खण्ड श्सिन्धु तट का अनाम गाँवश् वेदों के विषय को एक आकर्षक, सहज और बोधगम्य रूप में प्रस्तुत करने का एक सराहनीय प्रयास रहा है। भारतीय परम्परा में कथाओं का एक महत्वपूर्ण योगदान है क्योंकि कथाएं कल्पना का आधार लेकर भी प्रामाणिक जीवन-मूल्यों को समाज में स्थापित करने का एक सहज माध्यम बनती हैं। मुझे विश्वास है कि अंजेश जी की यह उपन्यासमाला इस दिशा में समाज में एक सार्थक प्रभाव छोड़ने में सफल होगी।`,
 			image: Reviewer1,
 			signature: Reviewer1Signature,
 		},
 		{
-			name: `eukst eqUrf'kj`,
+			name: `मनोज मुन्तशिर`,
 			about: [
-				`dfo] ys[kd o xhrdkj`,
-				'jk"Vªh; fQYe iqjLdkj fotsrk',
-				'¼loksZÙke xhrdkj½',
+				`कवि, लेखक व गीतकार`,
+				'राष्ट्रीय फिल्म पुरस्कार विजेता',
+				'(सर्वोत्तम गीतकार)',
 			],
-			briefReview: `eq>s çlUurk gS fd uoksfnr miU;kldkj v¥~ts'k cjuoky vius miU;kl 'la xPN/oE' ds ek/;e ls gekjs çkphure bfrgkl dh Le\`fr;ksa dks rktk djus dk ç;kl dj jgs gSaA _Xosn tSls fo"k; dks miU;kl ds çk:i esa <kyus dk ;g xEHkhj ç;Ru fuf'pr gh ç'kUluh; gSA `,
-			fullReview: `bfrgkl] fuLlansg] ,d lkFkZd Hkfo"; dh l'kä vk/kkjf'kyk vkSj orZeku dk çfrfcEc gksrk gSA gekjk vrhr gh gekjs O;fäRo ds fuekZ.k dk ekxZ ç'kLr djrk gSA ijUrq dky dk çokg dqN ,slk jgk fd gekjs bfrgkl ds dqN iUus fo—r gks pys vkSj dqN dks geus iyVuk gh NksM+ fn;kA
-			eq>s çlUurk gS fd uoksfnr miU;kldkj v¥~ts'k cjuoky vius miU;kl 'la xPN/oE' ds ek/;e ls gekjs çkphure bfrgkl dh Le\`fr;ksa dks rktk djus dk ç;kl dj jgs gSaA _Xosn tSls fo"k; dks miU;kl ds çk:i esa <kyus dk ;g xEHkhj ç;Ru fuf'pr gh ç'kUluh; gSA 
+			briefReview: `मुझे प्रसन्नता है कि नवोदित उपन्यासकार अञ्जेश बरनवाल अपने उपन्यास श्सं गच्छध्वम्श् के माध्यम से हमारे प्राचीनतम इतिहास की स्मृतियों को ताजा करने का प्रयास कर रहे हैं। ऋग्वेद जैसे विषय को उपन्यास के प्रारूप में ढालने का यह गम्भीर प्रयत्न निश्चित ही प्रशन्सनीय है। `,
+			fullReview: `इतिहास, निस्संदेह, एक सार्थक भविष्य की सशक्त आधारशिला और वर्तमान का प्रतिबिम्ब होता है। हमारा अतीत ही हमारे व्यक्तित्व के निर्माण का मार्ग प्रशस्त करता है। परन्तु काल का प्रवाह कुछ ऐसा रहा कि हमारे इतिहास के कुछ पन्ने विकृत हो चले और कुछ को हमने पलटना ही छोड़ दिया।
+			मुझे प्रसन्नता है कि नवोदित उपन्यासकार अञ्जेश बरनवाल अपने उपन्यास श्सं गच्छध्वम्श् के माध्यम से हमारे प्राचीनतम इतिहास की स्मृतियों को ताजा करने का प्रयास कर रहे हैं। ऋग्वेद जैसे विषय को उपन्यास के प्रारूप में ढालने का यह गम्भीर प्रयत्न निश्चित ही प्रशन्सनीय है। 
 			`,
 			image: Reviewer2,
 			signature: Reviewer2Signature,
 		},
 		{
-			name: `çkså ¼M‚å½ lqjsUæ dqekj tk;loky`,
+			name: `प्रो० (डॉ०) सुरेन्द्र कुमार जायसवाल`,
 			about: [
-				`Hkwåiwå foHkkxk/;{k]`,
-				`çkphu Hkkjrh; bfrgkl ,oa iqjkrRo`,
-				`y[kuÅ fo'ofo|ky;`,
+				`भू०पू० विभागाध्यक्ष,`,
+				`प्राचीन भारतीय इतिहास एवं पुरातत्व`,
+				`लखनऊ विश्वविद्यालय`,
 			],
-			briefReview: `Hkkjrh; lH;rk o ijEijkvksa
-			ds ewy ---_Xosn ---rFkk blesa
-			fufgr ekSfyd tkudkjh---çR;sd
-			O;fä rd igqapuh pkfg,]---bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA`,
-			fullReview: ` ;g ,d fufoZokn rF; gS fd Hkkjrh; lH;rk ds v/;;u ds fy, _Xosn çkphure miyC/k xzUFk ,oa lokZf/kd egRoiw.kZ Jksr gS] ftlds fcuk _XoSfnd dky dk v/;;u lEHko gh ugha gSA fu%lansg _Xosn lafgrk dk v/;;u ,d lgt dk;Z ugha gS vkSj blesa Hkh dbZ dfBukb;ka Lor% lkeus vkrh gSaA lEHko gS fd çkphu Hkkjrh; bfrgkl dk ,d Nk= viuh vko';drkvksa ds vuq:i bldk v/;;u dj ys] ij lkekU; O;fä mlesa fufgr rF;ksa dks tkuus ds fy, bldk v/;;u djsxk] ;g Lohdkj dj ikuk dfBu gSA
+			briefReview: `भारतीय सभ्यता व परम्पराओं
+			के मूल ...ऋग्वेद ...तथा इसमें
+			निहित मौलिक जानकारी... प्रत्येक
+			व्यक्ति तक पहुंचनी चाहिए, ... इस दिशा में आप द्वारा किया गया प्रयास सराहनीय है और ऋग्वेद के तथ्यों पर आधारित एक रोचक उपन्यास को इस कार्य का आधार बनाना भी अनुपम है।`,
+			fullReview: ` यह एक निर्विवाद तथ्य है कि भारतीय सभ्यता के अध्ययन के लिए ऋग्वेद प्राचीनतम उपलब्ध ग्रन्थ एवं सर्वाधिक महत्वपूर्ण श्रोत है, जिसके बिना ऋग्वैदिक काल का अध्ययन सम्भव ही नहीं है। निःसंदेह ऋग्वेद संहिता का अध्ययन एक सहज कार्य नहीं है और इसमें भी कई कठिनाइयां स्वतः सामने आती हैं। सम्भव है कि प्राचीन भारतीय इतिहास का एक छात्र अपनी आवश्यकताओं के अनुरूप इसका अध्ययन कर ले, पर सामान्य व्यक्ति उसमें निहित तथ्यों को जानने के लिए इसका अध्ययन करेगा, यह स्वीकार कर पाना कठिन है।
 
-			Hkkjrh; lH;rk o ijEijkvksa ds ewy ds :i esa _Xosn dks ns[kk tkuk pkfg, rFkk blesa fufgr ekSfyd tkudkjh Hkh çR;sd O;fä rd igqapuh pkfg,] blls eSa iw.kZr% lger gwaA bl fn'kk esa vki }kjk fd;k x;k ç;kl ljkguh; gS vkSj _Xosn ds rF;ksa ij vk/kkfjr ,d jkspd miU;kl dks bl dk;Z dk vk/kkj cukuk Hkh vuqie gSA eq>s fo'okl gS fd vki }kjk fyf[kr miU;kl vius mís';ksa esa lQyrk çkIr djsxhA vkids bl ç;kl dh eSa Hkwfj Hkwfj ç'kalk djrk gwaA bfrgkl ds çfr tkudkj yksxksa ds fy, ;g dk;Z dkQh egRoiw.kZ ,oa Kkuo/kZd gksxk] ,slk esjk ekuuk gSA vkius ftu egRoiw.kZ rF;ksa dks vk/kkj cuk dj fo"k; dks çLrqr djus dk lQy ç;kl fd;k gS] og vkidh nwjnf'kZrk vkSj Kku dk ifjpk;d gSA`,
+			भारतीय सभ्यता व परम्पराओं के मूल के रूप में ऋग्वेद को देखा जाना चाहिए तथा इसमें निहित मौलिक जानकारी भी प्रत्येक व्यक्ति तक पहुंचनी चाहिए, इससे मैं पूर्णतः सहमत हूं। इस दिशा में आप द्वारा किया गया प्रयास सराहनीय है और ऋग्वेद के तथ्यों पर आधारित एक रोचक उपन्यास को इस कार्य का आधार बनाना भी अनुपम है। मुझे विश्वास है कि आप द्वारा लिखित उपन्यास अपने उद्देश्यों में सफलता प्राप्त करेगी। आपके इस प्रयास की मैं भूरि भूरि प्रशंसा करता हूं। इतिहास के प्रति जानकार लोगों के लिए यह कार्य काफी महत्वपूर्ण एवं ज्ञानवर्धक होगा, ऐसा मेरा मानना है। आपने जिन महत्वपूर्ण तथ्यों को आधार बना कर विषय को प्रस्तुत करने का सफल प्रयास किया है, वह आपकी दूरदर्शिता और ज्ञान का परिचायक है।`,
 			image: Reviewer3,
 			signature: Reviewer3Signature,
 		},
 		{
-			name: `çkså ¼M‚å½ lat; f}osnh`,
-			about: [`egkfuns'kd]`, `Hkkjrh; tulapkj laLFkku]`, `ubZ fnYyh`],
-			briefReview: `la xPN/oe~ miU;klekyk fuLlansg bl dky&[k.M ls
-				lEcfU/kr ekSfyd vkSj ikjEifjd rF;ksa dks vius vki esa lesVs gq, gSA 
-				_XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn nykrh gSA`,
-			fullReview: `_XoSfnd bfrgkl ij ftl Lrj ds 'kks/k dh vko';drk gS] ml Lrj ds 'kks/k dh deh vHkh Hkh eu esa ,d Vhl mRiUu djrh gSA bl fo"k; ij i;kZIr 'kks/k dh laHkkouk,a vHkh Hkh fo|eku gSa] ,slk esjk fo'okl gS vkSj vkids miU;kl ds v/;;u us esjs bl fo'okl dks vkSj Hkh iq[rk dj fn;k gSA eSa ikrk gwa fd i;kZIr 'kks/k ds vHkko ds nq"ifj.kke Lo:i gh tu&ekul esa bl dky&[k.M ds çfr vusd Hkzkafr;ksa us viuk LFkku Hkh cuk fy;k gS] tks fd bfrgklcks/k ds lEcU/k esa loZFkk ,d vuqfpr y{k.k gSA eq>s fo'okl gS fd miU;kl ds ek/;e ls fd;k x;k vkidk ;g ç;kl _XoSfnd dky ds bfrgkl ds 'kks/k dh fn'kk esa ,d ldkjkRed ppkZ dks vkxs c<+k,xkA
-			vki }kjk jfpr 'la xPN/oE' miU;klekyk fuLlansg bl dky&[k.M ls lEcfU/kr ekSfyd vkSj ikjEifjd rF;ksa dks vius vki esa lesVs gq, gSA _XoSfnd dky ls lEcaf/kr fc[kjs gq, rF;ksa dk vUos"k.k rFkk mu rF;ksa dh ,d dFkk ds :i esa çLrqfr eq>s iaprU= dh ;kn fnykrh gS] ftlesa thou ds ewY;ksa dks O;ä djus ds fy, dgkfu;ksa dk lgkjk fy;k x;k gSA vkidk ;g ç;kl fuf'pr :i ls ç'kaluh; o ljkguh; gSA vkids bl ç;kl dh lQyrk dh eSa ân; ls eaxydkeuk djrk gwaA eq>s mEehn gSa fd ;g —fr ikBdksa dk I;kj ik,xhA`,
+			name: `प्रो० (डॉ०) संजय द्विवेदी`,
+			about: [`महानिदेशक,`, `भारतीय जनसंचार संस्थान,`, `नई दिल्ली`],
+			briefReview: `सं गच्छध्वम् उपन्यासमाला निस्संदेह इस काल-खण्ड से
+			सम्बन्धित मौलिक और पारम्परिक तथ्यों को अपने आप में समेटे हुए है। 
+			ऋग्वैदिक काल से सम्बंधित बिखरे हुए तथ्यों का अन्वेषण तथा उन तथ्यों की एक कथा के रूप में प्रस्तुति मुझे पंचतन्त्र की याद दलाती है।`,
+			fullReview: `ऋग्वैदिक इतिहास पर जिस स्तर के शोध की आवश्यकता है, उस स्तर के शोध की कमी अभी भी मन में एक टीस उत्पन्न करती है। इस विषय पर पर्याप्त शोध की संभावनाएं अभी भी विद्यमान हैं, ऐसा मेरा विश्वास है और आपके उपन्यास के अध्ययन ने मेरे इस विश्वास को और भी पुख्ता कर दिया है। मैं पाता हूं कि पर्याप्त शोध के अभाव के दुष्परिणाम स्वरूप ही जन-मानस में इस काल-खण्ड के प्रति अनेक भ्रांतियों ने अपना स्थान भी बना लिया है, जो कि इतिहासबोध के सम्बन्ध में सर्वथा एक अनुचित लक्षण है। मुझे विश्वास है कि उपन्यास के माध्यम से किया गया आपका यह प्रयास ऋग्वैदिक काल के इतिहास के शोध की दिशा में एक सकारात्मक चर्चा को आगे बढ़ाएगा।
+			आप द्वारा रचित श्सं गच्छध्वम्श् उपन्यासमाला निस्संदेह इस काल-खण्ड से सम्बन्धित मौलिक और पारम्परिक तथ्यों को अपने आप में समेटे हुए है। ऋग्वैदिक काल से सम्बंधित बिखरे हुए तथ्यों का अन्वेषण तथा उन तथ्यों की एक कथा के रूप में प्रस्तुति मुझे पंचतन्त्र की याद दिलाती है, जिसमें जीवन के मूल्यों को व्यक्त करने के लिए कहानियों का सहारा लिया गया है। आपका यह प्रयास निश्चित रूप से प्रशंसनीय व सराहनीय है। आपके इस प्रयास की सफलता की मैं हृदय से मंगलकामना करता हूं। मुझे उम्मीद हैं कि यह कृति पाठकों का प्यार पाएगी।`,
 			image: Reviewer4,
 			signature: Reviewer4Signature,
 		},
 		{
-			name: `M‚å vfHk"ksd dqekj`,
+			name: `डॉ० अभिषेक कुमार`,
 			about: [
-				`,lksfl,V çksQslj o Mk;jsDVj`,
-				`vuUr us'kuy ;wfuoflZVh]`,
-				`vgenkckn`,
+				`एसोसिएट प्रोफेसर व डायरेक्टर`,
+				`अनन्त नेशनल यूनिवर्सिटी,`,
+				`अहमदाबाद`,
 			],
-			briefReview: `lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
-			fullReview: `_Xosn ds fc[kjs gq, eudksa :ih fo"k;ksa dks ,d dgkuh&:ih ekyk esa fijksrs gq, dgkuh ds :i esa _Xosn dks çLrqr djuk] miU;kl ds ys[ku esa dh xbZ bl fo/kk ds p;u us çR;sd O;fä rd _Xosn dh igqap dks ljy ds lkFk gh lkFk laHko Hkh cuk fn;k gS] ftldh ftruh ç'kalk dh tk,] og de gSA 
-			rRdkyhu lekt dh lkekftd&vkfFkZd n'kk ds vk/kkj ij xqFkh xbZ ;g dgkuh çkjEHk esa lUrku dh dkeuk tSls ljy o lkekU; fo"k; ls çkjEHk gksrh gSA ij vkxs c<+us ds lkFk&lkFk jktæksg o bUlsLV tSls tfVy fo"k;ksa dks Hkh Nwus ls ijgst ugha djrh gSA lekt ds mRFkku esa ukjh dh Hkwfedk dk ftruh lgtrk ls o.kZu fd;k x;k gS] og vpfEHkr Hkh djrk gS vkSj ;g bl miU;kl ds lokZf/kd etcwr i{k ds :i esa Hkh mHkj dj lkeus vkrk gSA lEiw.kZ dFkkud vkSj ys[ku&'kSyh dqN bl çdkj dh gS] tSls ge vius lkeus] vius Lo;a ds thou dks ,d ,slh dgkuh ds :i esa ?kfVr gksrs gq, ns[k ik jgs gksa] ftldh i\`"BHkwfe çkphu dky ls lEcfU/kr gksrs gq, Hkh og ,d fpj&uohu gksus tSlh vuqHkwfr çnku dj jgh gksA`,
+			briefReview: `lम्पूर्ण कथानक और लेखन-शैली कुछ इस प्रकार की है, जैसे हम अपने सामने, अपने स्वयं के जीवन को एक ऐसी कहानी के रूप में घटित होते हुए देख पा रहे हों, जिसकी पृष्ठभूमि प्राचीन काल से सम्बन्धित होते हुए भी वह एक चिर-नवीन होने जैसी अनुभूति प्रदान कर रही हो।`,
+			fullReview: `ऋग्वेद के बिखरे हुए मनकों रूपी विषयों को एक कहानी-रूपी माला में पिरोते हुए कहानी के रूप में ऋग्वेद को प्रस्तुत करना, उपन्यास के लेखन में की गई इस विधा के चयन ने प्रत्येक व्यक्ति तक ऋग्वेद की पहुंच को सरल के साथ ही साथ संभव भी बना दिया है, जिसकी जितनी प्रशंसा की जाए, वह कम है। 
+			तत्कालीन समाज की सामाजिक-आर्थिक दशा के आधार पर गुथी गई यह कहानी प्रारम्भ में सन्तान की कामना जैसे सरल व सामान्य विषय से प्रारम्भ होती है। पर आगे बढ़ने के साथ-साथ राजद्रोह व इन्सेस्ट जैसे जटिल विषयों को भी छूने से परहेज नहीं करती है। समाज के उत्थान में नारी की भूमिका का जितनी सहजता से वर्णन किया गया है, वह अचम्भित भी करता है और यह इस उपन्यास के सर्वाधिक मजबूत पक्ष के रूप में भी उभर कर सामने आता है। सम्पूर्ण कथानक और लेखन-शैली कुछ इस प्रकार की है, जैसे हम अपने सामने, अपने स्वयं के जीवन को एक ऐसी कहानी के रूप में घटित होते हुए देख पा रहे हों, जिसकी पृष्ठभूमि प्राचीन काल से सम्बन्धित होते हुए भी वह एक चिर-नवीन होने जैसी अनुभूति प्रदान कर रही हो।`,
 			image: Reviewer5,
 			signature: Reviewer5Signature,
 		},

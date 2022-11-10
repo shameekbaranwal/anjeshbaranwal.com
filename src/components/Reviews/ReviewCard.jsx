@@ -32,19 +32,19 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 				<img
 					src={review?.image}
 					alt={review?.name}
-					className='absolute w-24 transition-all duration-300 rounded-full left-2 ring-2 ring-orange-500'
+					className='absolute w-28 transition-all duration-300 rounded-full left-2 ring-2 ring-orange-500'
 					style={{
 						opacity: opacity,
 					}}
 				/>
 				<div className='flex flex-col w-full pl-2'>
-					<p className='w-full pl-[5rem] mb-1 text-center text-lg lg:text-xl text-white font-kruti bg-brown-300 rounded-r-xl rounded-l-xl'>
+					<p className='w-full pl-[5rem] mb-1 text-center text-lg lg:text-2xl text-white font-kokila bg-brown-300 rounded-r-xl rounded-l-xl'>
 						{review?.name}
 					</p>
-					<div className='pl-[5.5rem]'>
+					<div className='pl-[6.5rem]'>
 						{review?.about?.map(a => (
 							<p
-								className='font-kruti text-base leading-[1.1] md:text-lg md:leading-[1]'
+								className='font-kokila text-base leading-[1.1] md:text-xl md:leading-[1]'
 								key={a}
 							>
 								{a}
@@ -59,7 +59,7 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 					alt='opening quotation marks'
 					className='self-start w-10'
 				/>
-				<p className='text-2xl text-center font-kruti-italic'>
+				<p className='text-2xl text-center font-kokila italic'>
 					{review?.briefReview}
 				</p>
 				<img
@@ -75,7 +75,7 @@ export default function ReviewCard({ currentReview, setEnableAutoScroll }) {
 					setEnableAutoScroll(false);
 				}}
 			>
-				<p className='text-2xl font-kruti-bold'>{Hindi.ViewMore}</p>
+				<p className='text-2xl font-kokilab'>{Hindi.ViewMore}</p>
 				<p className='ml-2 text-2xl'>{'...'}</p>
 			</div>
 			<Modal
