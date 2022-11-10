@@ -1,7 +1,6 @@
 import React from 'react';
 
-// import Hindi from '../../constants/Hindi.js';
-import ReviewHeadingText from '../General/ReviewHeadingText';
+import Hindi from '../../constants/Hindi.js';
 import Title from '../General/Title';
 import ReviewCard from './ReviewCard';
 import NewReviewNavigationButtons from './NewReviewNavigationButtons';
@@ -22,8 +21,7 @@ export default function Reviews() {
 			id='Reviews'
 		>
 			<Title>
-				{/* {Hindi.Reviews} */}
-				<ReviewHeadingText />
+				{Hindi.Reviews1} / {Hindi.Reviews2}
 			</Title>
 			<div className='h-10'></div>
 			<NewReviewNavigationButtons

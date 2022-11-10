@@ -11,7 +11,7 @@ export default function NavBar() {
 		// Outer Div
 		//  	NavBrand
 		// 		NavToggleButton
-		// 		*Horizontal Nav Options
+		// 		Horizontal Nav Options
 		// Vertical Nav Options
 		<>
 			<nav className='bg-platinum flex z-20 justify-between items-center drop-shadow-xl fixed w-screen h-14 px-4 sm:px-10 '>

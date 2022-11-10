@@ -26,6 +26,8 @@ module.exports = {
 				'kruti-bold-italic': ['kruti-bold-italic', 'sans-serif'],
 				'cinzel-black': ['cinzel-black', 'cursive'],
 				'cinzel-bold': ['cinzel-bold', 'cursive'],
+				arya: ['arya', 'sans-serif'],
+				'arya-bold': ['arya-bold', 'sans-serif'],
 			},
 		},
 	},

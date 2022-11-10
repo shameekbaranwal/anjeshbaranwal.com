@@ -5,17 +5,17 @@
 @font-face {
 	font-family: "kokila";
 	src: url("./assets/fonts/kokila.ttf");
-  }
+}
 
 @font-face {
 	font-family: "kokilab";
 	src: url("./assets/fonts/kokilab.ttf");
-  }
+}
 
 @font-face {
 	font-family: "kruti";
 	src: url("./assets/fonts/KRDEV010.TTF");
-  }
+}
 
 @font-face {
 	font-family: "kruti-bold";
@@ -47,6 +47,15 @@
 	src: url("./assets/fonts/CinzelDecorative-Bold.ttf");
   }
 
+@font-face {
+	font-family: "arya";
+	src: url("./assets/fonts/Arya-Regular.ttf");
+	}
+
+@font-face {
+	font-family: "arya-bold";
+	src: url("./assets/fonts/Arya-Bold.ttf");
+	}
 
 * {
 	scroll-behavior: smooth;

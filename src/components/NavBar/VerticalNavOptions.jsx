@@ -1,8 +1,8 @@
 import React from 'react';
+
 import NavOption from './NavOption';
 import SocialMedia from './SocialMedia';
 import Hindi from '../../constants/Hindi.js';
-import ReviewHeadingText from '../General/ReviewHeadingText';
 import BuyVerticalNav from './BuyVerticalNav';
 
 export default function VerticalNavOptions({ isOpen, setIsOpen }) {
@@ -13,7 +13,7 @@ export default function VerticalNavOptions({ isOpen, setIsOpen }) {
 			}`}
 		>
 			<NavOption onClick={() => setIsOpen(false)} href='./#Reviews'>
-				<ReviewHeadingText />
+				{Hindi.Reviews1} / {Hindi.Reviews2}
 			</NavOption>
 			<NavOption onClick={() => setIsOpen(false)} href='./#Foreword'>
 				{Hindi.Foreword}

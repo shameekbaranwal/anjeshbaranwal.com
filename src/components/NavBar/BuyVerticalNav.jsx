@@ -11,7 +11,7 @@ export default function BuyVerticalNav({ closeNavBar }) {
 	return (
 		<div className='flex flex-col items-center justify-center w-full'>
 			<div className={`flex items-center justify-center relative`}>
-				<p className='text-2xl text-center transition-all duration-75 font-kruti-bold md:text-lg lg:text-2xl'>
+				<p className='text-3xl text-center transition-all duration-75 font-kokilab'>
 					{Hindi.BuyNow}
 				</p>
 				<ChevronDownIcon className='absolute w-6 h-6 -right-8' />
