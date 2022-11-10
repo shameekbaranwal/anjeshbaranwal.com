@@ -12,7 +12,7 @@ export default function Preface() {
 		>
 			<Title>{Hindi.Preface}</Title>
 			<BhojPatra>
-				<p className='text-xl text-center font-kruti lg:text-3xl'>
+				<p className='text-xl text-center font-kokila lg:text-3xl'>
 					{Hindi.PrefaceContent}
 				</p>
 			</BhojPatra>

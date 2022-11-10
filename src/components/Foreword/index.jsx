@@ -20,15 +20,15 @@ export default function Foreword() {
 						alt='Monika Arora'
 						className='w-48 h-48 border rounded-full shadow-2xl ring-2 ring-neutral-700'
 					/>
-					<h3 className='text-4xl text-transparent font-kruti-bold bg-clip-text bg-gradient-to-b from-black to-brown-300'>
+					<h3 className='text-3xl text-transparent font-kokilab text-center bg-clip-text bg-gradient-to-b from-black to-brown-300'>
 						{Hindi.MonikaAroraName}
 					</h3>
-					<p className='-mt-2 text-2xl text-center font-kruti text-brown-300'>
+					<p className='-mt-2 text-2xl text-center font-kokila text-brown-300'>
 						{Hindi.MonikaAroraDesc}
 					</p>
 				</div>
 				<BhojPatra>
-					<p className='text-xl text-center font-kruti lg:text-3xl'>
+					<p className='text-xl text-center font-kokila lg:text-3xl'>
 						{Hindi.ForewordContent}
 					</p>
 				</BhojPatra>
