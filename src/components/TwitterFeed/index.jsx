@@ -16,6 +16,7 @@ export default function TwitterFeed() {
 					autoHeight
 					onLoad={() => setIsLoading(false)}
 					noBorders
+					lang='hi'
 				/>
 				<Loading isLoading={isLoading} />
 			</div>
